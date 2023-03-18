@@ -1,0 +1,2494 @@
+<!DOCTYPE html>
+<html lang="En-en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="Description" content="default">
+    <link rel="shortcut icon" href="img/sprite/fav.svg" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Defi</title>
+
+    <link rel="preload" href="fonts/Inter-Regular.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Inter-Medium.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Inter-SemiBold.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Inter-Bold.woff" as="font" crossorigin="anonymous">
+
+    <link rel="preload" href="fonts/TTFirsNeue-Regular.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/TTFirsNeue-Medium.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/TTFirsNeue-DemiBold.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/TTFirsNeue-ExtraBold.woff" as="font" crossorigin="anonymous">
+
+    <link rel="preload" href="fonts/NunitoSans-Regular.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/NunitoSans-SemiBold.woff" as="font" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+  <header class="header fixed-block" style="opacity: 0;">
+  <div class="header__inner">
+    <div class="container">
+      <div class="header-box">
+          <a href="index.html" class="header-logo header__logo">
+            <picture>
+              <source media='(max-width: 1024px)' width='34' height='34' srcset='img/sprite/mobile-logo.svg'>
+              <img width='140' height='34' src='img/sprite/logo.svg' alt='image'>
+            </picture>
+          </a>
+
+          <button class="burger">
+            <svg width="18" height="10">
+              <use href='img/sprite/sprite.svg#burger'></use>
+            </svg>
+          </button>
+
+          <div class="header-box__inner">
+            
+
+<nav class="main-nav header-box__nav">
+  <ul class="main-nav__list">
+    <li class="main-nav__item">
+      <a href="error.html" class="main-nav__link">
+        Certik
+      </a>
+    </li>
+    <li class="main-nav__item ">
+      <a href="modal.html" class="main-nav__link">
+       
+        Docs
+      </a>
+    </li>
+    <div class="main-nav__list-soc">
+      <li class="main-nav__item item-soc">
+        <a href="index.html" class="main-nav__link link-soc">
+        
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.6377 5.90604C16.6487 6.06878 16.6487 6.23152 16.6487 6.39575C16.6487 11.4001 12.9339 17.1717 6.14116 17.1717V17.1687C4.13458 17.1717 2.16968 16.5822 0.480469 15.4708C0.772242 15.5068 1.06548 15.5248 1.35945 15.5256C3.02233 15.5271 4.63769 14.9549 5.94592 13.9012C4.36566 13.8704 2.97992 12.8138 2.49583 11.2711C3.04939 11.3806 3.61977 11.3581 4.1631 11.2059C2.44025 10.8489 1.20076 9.29654 1.20076 7.49367C1.20076 7.47717 1.20076 7.46142 1.20076 7.44567C1.71411 7.7389 2.28888 7.90164 2.87681 7.91964C1.25414 6.80747 0.753961 4.59364 1.73385 2.86277C3.60881 5.22884 6.37517 6.66723 9.34482 6.81947C9.0472 5.50407 9.45378 4.12567 10.4132 3.20099C11.9006 1.7671 14.2399 1.8406 15.6381 3.36523C16.4651 3.19799 17.2578 2.88677 17.9832 2.4458C17.7075 3.32249 17.1306 4.06718 16.3598 4.54039C17.0918 4.4519 17.807 4.25092 18.4805 3.94419C17.9847 4.70613 17.3602 5.36983 16.6377 5.90604Z" fill="#ABB8EB"/>
+            </svg>
+          
+          Twitter
+        </a>
+      </li>
+      <li class="main-nav__item item-soc">
+        <a href="modal.html" class="main-nav__link link-soc">
+          <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4805 9.66016C18.4805 14.6307 14.451 18.6602 9.48047 18.6602C4.50991 18.6602 0.480469 14.6307 0.480469 9.66016C0.480469 4.68959 4.50991 0.660156 9.48047 0.660156C14.451 0.660156 18.4805 4.68959 18.4805 9.66016ZM9.80298 7.30435C8.9276 7.66846 7.17806 8.42206 4.55438 9.56515C4.12833 9.73458 3.90515 9.90032 3.88484 10.0624C3.8505 10.3363 4.1935 10.4441 4.66056 10.591C4.7241 10.611 4.78993 10.6317 4.85741 10.6536C5.31694 10.803 5.93508 10.9777 6.25643 10.9847C6.54792 10.991 6.87325 10.8708 7.23244 10.6242C9.68383 8.96941 10.9492 8.13302 11.0287 8.11499C11.0847 8.10226 11.1624 8.08627 11.215 8.13304C11.2677 8.17982 11.2625 8.2684 11.2569 8.29216C11.2229 8.43701 9.87657 9.68872 9.17981 10.3365C8.96259 10.5384 8.80851 10.6817 8.77702 10.7144C8.70646 10.7877 8.63456 10.857 8.56545 10.9236C8.13854 11.3352 7.8184 11.6438 8.58317 12.1478C8.95067 12.3899 9.24475 12.5902 9.53814 12.79C9.85857 13.0082 10.1782 13.2259 10.5917 13.4969C10.697 13.566 10.7976 13.6377 10.8956 13.7076C11.2685 13.9734 11.6035 14.2122 12.0174 14.1741C12.2579 14.152 12.5063 13.9259 12.6325 13.2514C12.9306 11.6575 13.5167 8.204 13.6521 6.78089C13.664 6.65621 13.6491 6.49664 13.6371 6.42659C13.6251 6.35654 13.6 6.25674 13.509 6.18286C13.4012 6.09536 13.2347 6.07691 13.1602 6.07822C12.8217 6.08418 12.3024 6.26477 9.80298 7.30435Z" fill="#ABB8EB"/>
+            </svg>
+            
+          Telegram
+        </a>
+      </li>
+      <li class="main-nav__item item-soc">
+        <a href="index.html" class="main-nav__link link-soc">
+          <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_0_1564)">
+            <path d="M5.5571 4.5625C8.36085 4.5625 10.6335 6.85107 10.6335 9.67397C10.6335 12.4969 8.36068 14.7853 5.5571 14.7853C2.75352 14.7853 0.480469 12.4969 0.480469 9.67397C0.480469 6.85107 2.75334 4.5625 5.5571 4.5625ZM13.6641 4.86192C15.066 4.86192 16.2024 7.01613 16.2024 9.67397H16.2026C16.2026 12.3311 15.0662 14.486 13.6643 14.486C12.2624 14.486 11.126 12.3311 11.126 9.67397C11.126 7.01682 12.2622 4.86192 13.6641 4.86192ZM17.5877 5.36313C18.0807 5.36313 18.4805 7.29312 18.4805 9.67397C18.4805 12.0541 18.0808 13.9848 17.5877 13.9848C17.0946 13.9848 16.6952 12.0546 16.6952 9.67397C16.6952 7.2933 17.0948 5.36313 17.5877 5.36313Z" fill="#ABB8EB"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_0_1564">
+            <rect width="18" height="18" fill="white" transform="translate(0.480469 0.660156)"/>
+            </clipPath>
+            </defs>
+            </svg>
+          Medium
+        </a>
+      </li>
+    </div>
+    
+
+  </ul>
+
+</nav>
+
+
+            <a href="#" class="header-box__logo">
+              <svg width='93' height='25'>
+                <use href='img/sprite/sprite.svg#main-logo'></use>
+              </svg>
+            </a>
+          </div>
+
+          <button class="wallet-button" data-btn-modal="wallet">
+            <svg width='24' height='24'>
+              <use href='img/sprite/sprite.svg#wallet'></use>
+            </svg>
+              0x04...B233
+          </button>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="mobile-menu">
+    <div class="mobile-menu__header">
+      <button class="burger">
+        <svg width="18" height="10">
+          <use href='img/sprite/sprite.svg#burger'></use>
+        </svg>
+      </button>
+
+      <button class="mobile-menu__btn main-button mobile-link" data-btn-modal="connect">
+        Connect wallet
+        <svg width='18' height='18'>
+          <use href='img/sprite/sprite.svg#main-arrow '></use>
+        </svg>
+      </button>
+
+      <a href="index.html" class="header-logo mobile-menu__logo">
+        <img width='34' height='34' srcset='img/sprite/mobile-logo.svg'>
+      </a>
+    </div>
+
+    <div class="mobile-menu__body">
+        <ul class="mobile-menu__list">
+          <li class="mobile-menu__item ">
+            <a href="index.html" class="mobile-menu__link mobile-link">
+              Certik
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="modal.html" class="mobile-menu__link mobile-link global">
+              Docs
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="farming.html" class="mobile-menu__link mobile-link">
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.6377 5.90604C16.6487 6.06878 16.6487 6.23152 16.6487 6.39575C16.6487 11.4001 12.9339 17.1717 6.14116 17.1717V17.1687C4.13458 17.1717 2.16968 16.5822 0.480469 15.4708C0.772242 15.5068 1.06548 15.5248 1.35945 15.5256C3.02233 15.5271 4.63769 14.9549 5.94592 13.9012C4.36566 13.8704 2.97992 12.8138 2.49583 11.2711C3.04939 11.3806 3.61977 11.3581 4.1631 11.2059C2.44025 10.8489 1.20076 9.29654 1.20076 7.49367C1.20076 7.47717 1.20076 7.46142 1.20076 7.44567C1.71411 7.7389 2.28888 7.90164 2.87681 7.91964C1.25414 6.80747 0.753961 4.59364 1.73385 2.86277C3.60881 5.22884 6.37517 6.66723 9.34482 6.81947C9.0472 5.50407 9.45378 4.12567 10.4132 3.20099C11.9006 1.7671 14.2399 1.8406 15.6381 3.36523C16.4651 3.19799 17.2578 2.88677 17.9832 2.4458C17.7075 3.32249 17.1306 4.06718 16.3598 4.54039C17.0918 4.4519 17.807 4.25092 18.4805 3.94419C17.9847 4.70613 17.3602 5.36983 16.6377 5.90604Z" fill="#ABB8EB"/>
+                </svg>
+
+              Twitter
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="launch.html" class="mobile-menu__link mobile-link">
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4805 9.66016C18.4805 14.6307 14.451 18.6602 9.48047 18.6602C4.50991 18.6602 0.480469 14.6307 0.480469 9.66016C0.480469 4.68959 4.50991 0.660156 9.48047 0.660156C14.451 0.660156 18.4805 4.68959 18.4805 9.66016ZM9.80298 7.30435C8.9276 7.66846 7.17806 8.42206 4.55438 9.56515C4.12833 9.73458 3.90515 9.90032 3.88484 10.0624C3.8505 10.3363 4.1935 10.4441 4.66056 10.591C4.7241 10.611 4.78993 10.6317 4.85741 10.6536C5.31694 10.803 5.93508 10.9777 6.25643 10.9847C6.54792 10.991 6.87325 10.8708 7.23244 10.6242C9.68383 8.96941 10.9492 8.13302 11.0287 8.11499C11.0847 8.10226 11.1624 8.08627 11.215 8.13304C11.2677 8.17982 11.2625 8.2684 11.2569 8.29216C11.2229 8.43701 9.87657 9.68872 9.17981 10.3365C8.96259 10.5384 8.80851 10.6817 8.77702 10.7144C8.70646 10.7877 8.63456 10.857 8.56545 10.9236C8.13854 11.3352 7.8184 11.6438 8.58317 12.1478C8.95067 12.3899 9.24475 12.5902 9.53814 12.79C9.85857 13.0082 10.1782 13.2259 10.5917 13.4969C10.697 13.566 10.7976 13.6377 10.8956 13.7076C11.2685 13.9734 11.6035 14.2122 12.0174 14.1741C12.2579 14.152 12.5063 13.9259 12.6325 13.2514C12.9306 11.6575 13.5167 8.204 13.6521 6.78089C13.664 6.65621 13.6491 6.49664 13.6371 6.42659C13.6251 6.35654 13.6 6.25674 13.509 6.18286C13.4012 6.09536 13.2347 6.07691 13.1602 6.07822C12.8217 6.08418 12.3024 6.26477 9.80298 7.30435Z" fill="#ABB8EB"/>
+                </svg>
+
+              Telegram
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="referral.html" class="mobile-menu__link mobile-link">
+
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_0_1564)">
+                <path d="M5.5571 4.5625C8.36085 4.5625 10.6335 6.85107 10.6335 9.67397C10.6335 12.4969 8.36068 14.7853 5.5571 14.7853C2.75352 14.7853 0.480469 12.4969 0.480469 9.67397C0.480469 6.85107 2.75334 4.5625 5.5571 4.5625ZM13.6641 4.86192C15.066 4.86192 16.2024 7.01613 16.2024 9.67397H16.2026C16.2026 12.3311 15.0662 14.486 13.6643 14.486C12.2624 14.486 11.126 12.3311 11.126 9.67397C11.126 7.01682 12.2622 4.86192 13.6641 4.86192ZM17.5877 5.36313C18.0807 5.36313 18.4805 7.29312 18.4805 9.67397C18.4805 12.0541 18.0808 13.9848 17.5877 13.9848C17.0946 13.9848 16.6952 12.0546 16.6952 9.67397C16.6952 7.2933 17.0948 5.36313 17.5877 5.36313Z" fill="#ABB8EB"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_0_1564">
+                <rect width="18" height="18" fill="white" transform="translate(0.480469 0.660156)"/>
+                </clipPath>
+                </defs>
+                </svg>
+
+              Medium
+            </a>
+          </li>
+          
+
+
+        </ul>
+
+      
+
+        <span class="mobile-menu__label">
+          <svg width="94" height="25">
+            <use href='img/sprite/sprite.svg#main-logo'></use>
+          </svg>
+        </span>
+    </div>
+
+  </div>
+
+</header>
+
+
+  <main style="opacity: 0;">
+
+  
+
+  <section class="first dark-section">
+
+
+    <div class="first-bg">
+    </div>
+
+    <div class="first-bg-decor">
+      <svg width="681" height="222" viewBox="0 0 681 222" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M-301.201 204.7L-252.108 223.83M-252.108 223.83L-106.286 280.652M-252.108 223.83L-279.518 233.306M-252.108 223.83L-104.343 172.746M-106.286 280.652L39.5366 337.475M-106.286 280.652L-133.696 290.128M-106.286 280.652L41.4791 229.568M39.5366 337.475L89.358 356.888M39.5366 337.475L12.1262 346.951M39.5366 337.475L187.301 286.391M-153.436 153.616L-104.343 172.746M-104.343 172.746L41.4791 229.568M-104.343 172.746L43.4217 121.661M41.4791 229.568L187.301 286.391M41.4791 229.568L189.244 178.484M187.301 286.391L237.123 305.804M187.301 286.391L335.066 235.306M-5.67129 102.531L43.4217 121.661M43.4217 121.661L189.244 178.484M43.4217 121.661L191.187 70.5774M189.244 178.484L335.066 235.306M189.244 178.484L337.009 127.4M335.066 235.306L384.888 254.72M335.066 235.306L482.831 184.222M57.2396 19.2274L191.187 70.5774M191.187 70.5774L337.009 127.4M191.187 70.5774L338.951 19.4934M337.009 127.4L482.831 184.222M337.009 127.4L484.773 76.3158M482.831 184.222L532.652 203.636M482.831 184.222L630.596 133.138M289.858 0.363305L338.951 19.4934M338.951 19.4934L484.773 76.3158M338.951 19.4934L356.166 13.5421M484.773 76.3158L630.596 133.138M484.773 76.3158L501.988 70.3646M630.596 133.138L680.417 152.552M630.596 133.138L647.81 127.187" stroke="url(#paint0_linear_0_1045)" stroke-opacity="0.1" stroke-width="0.769082"/>
+        <defs>
+        <linearGradient id="paint0_linear_0_1045" x1="191.949" y1="57.7276" x2="191.873" y2="183.569" gradientUnits="userSpaceOnUse">
+        <stop stop-color="white" stop-opacity="0"/>
+        <stop offset="1" stop-color="white"/>
+        </linearGradient>
+        </defs>
+        </svg>
+        <svg width="682" height="222" viewBox="0 0 682 222" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M982.417 204.7L933.324 223.83M933.324 223.83L787.502 280.653M933.324 223.83L960.734 233.306M933.324 223.83L785.559 172.746M787.502 280.653L641.68 337.475M787.502 280.653L814.912 290.129M787.502 280.653L639.737 229.569M641.68 337.475L591.858 356.889M641.68 337.475L669.09 346.951M641.68 337.475L493.915 286.391M834.652 153.616L785.559 172.746M785.559 172.746L639.737 229.569M785.559 172.746L637.795 121.662M639.737 229.569L493.915 286.391M639.737 229.569L491.972 178.484M493.915 286.391L444.094 305.805M493.915 286.391L346.15 235.307M686.888 102.532L637.795 121.662M637.795 121.662L491.972 178.484M637.795 121.662L490.03 70.5779M491.972 178.484L346.15 235.307M491.972 178.484L344.208 127.4M346.15 235.307L296.329 254.721M346.15 235.307L198.385 184.223M623.977 19.2279L490.03 70.5779M490.03 70.5779L344.208 127.4M490.03 70.5779L342.265 19.4938M344.208 127.4L198.385 184.223M344.208 127.4L196.443 76.3163M198.385 184.223L148.564 203.637M198.385 184.223L50.6206 133.139M391.358 0.363793L342.265 19.4938M342.265 19.4938L196.443 76.3163M342.265 19.4938L325.051 13.5426M196.443 76.3163L50.6206 133.139M196.443 76.3163L179.228 70.365M50.6206 133.139L0.799228 152.553M50.6206 133.139L33.4061 127.188" stroke="url(#paint0_linear_0_1046)" stroke-opacity="0.1" stroke-width="0.769082"/>
+          <defs>
+          <linearGradient id="paint0_linear_0_1046" x1="489.267" y1="57.7281" x2="489.343" y2="183.57" gradientUnits="userSpaceOnUse">
+          <stop stop-color="white" stop-opacity="0"/>
+          <stop offset="1" stop-color="white"/>
+          </linearGradient>
+          </defs>
+          </svg>
+    </div>
+
+
+
+    <div class="first__container container">
+
+
+      <img class="first-coint coint-1" src="img/first/coints/1.png" alt="coint">
+
+    <img class="first-coint coint-2" src="img/first/coints/2.png" alt="coint">
+    <img class="first-coint coint-3" src="img/first/coints/3.png" alt="coint">
+    <img class="first-coint coint-4" src="img/first/coints/4.png" alt="coint">
+    <img class="first-coint coint-5" src="img/first/coints/5.png" alt="coint">
+    <img class="first-coint coint-6" src="img/first/coints/6.png" alt="coint">
+
+
+      <div class="first__content">
+
+        <div class="first__block-title-logo">
+          <div class="first__title-text">Global</div>
+          <div class="first__block-title">
+            
+            <div class="first__title">PRE</div> 
+            <div class="first__logo">
+              <svg width="424" height="357" viewBox="0 0 424 357" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_0_1053)">
+                <path d="M56.5371 424.327L56.2214 251.21L169.254 311.014C185.655 319.708 186.493 342.897 170.762 352.752L56.5341 424.327H56.5371Z" fill="#17254F" fill-opacity="0.44"/>
+                <path d="M55.92 87.298L55.7622 0L423.085 194.65L376.18 224.04C358.532 235.098 336.316 235.876 317.94 226.077L55.92 87.298Z" fill="#17254F" fill-opacity="0.6"/>
+                <path d="M252.528 314.543L0 182.395V95.1266L215.445 207.481C259.708 231.609 255.111 251.633 252.528 314.541V314.543Z" fill="#17254F"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_0_1053">
+                <rect width="423.085" height="424.327" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+            </div>
+            <div class="first__title">LAUNCH</div>
+            </div>
+           <div class="first__title-text flex-end">Event</div>
+       
+            
+
+          
+         
+        </div>
+        <div class="first__block-price">
+          <div class="first__price-icon">
+            <svg width="57" height="55" viewBox="0 0 57 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="28.21" cy="27.494" rx="28.21" ry="27.494" fill="#6866F6"/>
+              <g clip-path="url(#clip0_0_1064)">
+              <path d="M15.8154 48.2277L15.7838 31.3149L27.1142 37.1575C28.7582 38.0069 28.8422 40.2724 27.2654 41.2351L15.8152 48.2277H15.8154Z" fill="white"/>
+              <path d="M15.754 15.3016L15.7382 6.77295L52.5585 25.7893L47.8568 28.6607C46.0878 29.741 43.8608 29.817 42.0188 28.8596L15.754 15.3016Z" fill="white" fill-opacity="0.6"/>
+              <path d="M35.4614 37.5025L10.1481 24.5923V16.0665L31.7442 27.043C36.1812 29.4002 35.7204 31.3565 35.4614 37.5023V37.5025Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_0_1064">
+              <rect width="42.4612" height="41.5135" fill="white" transform="translate(10.1224 6.73706)"/>
+              </clipPath>
+              </defs>
+              </svg>
+          </div>
+          <div class="first__block-text-price">
+            <div class="first__price-title">Prize pool:</div>
+            <div class="first__price">$ 100.000</div>
+            <div class="first__fls">(200 000 FSL)</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+    <section class="pre-launch">
+      <div class="container">
+        <div class="main-top">
+          <h2 class="main-top__title" data-title="Pre-Launch ">
+            Pre-Launch <span class="violet-text">Event </span>
+          </h2>
+        </div>
+        <div class="pre-launch__content">
+          <div class="pre-launch__points">
+  
+              <div class="point">
+                <div class="point__block-title">
+                  <div class="point__num">1</div>
+                <div class="point__block-text">
+                    <div class="point__title">Copy unique code</div>
+                    <div class="point__title-text">One step! Copy your unique code tocomplete all sign up steps and earn crypto reward</div>
+                </div>
+                </div>
+                <form action="#" class="copy-form buffer">
+                  <label for="#" class="copy-form__label">
+                    <input type="text" class="copy-form__input buffer__input" value="https://flixswap.org/reg=vladnovsky123">
+                    <button class="copy-form__btn buffer__button">
+                      <svg width="24" height="24">
+                        <use href="img/sprite/sprite.svg#copy"></use>
+                      </svg>
+                    </button>
+                  </label>
+                </form>
+              </div>
+
+              <div class="points-arrow">
+                <svg width="71" height="44" viewBox="0 0 71 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.48242 2.00024L24.303 21.709L2.48419 41.3379" stroke="#6866F6" stroke-opacity="0.24" stroke-width="3.5" stroke-linecap="round"/>
+                  <path opacity="0.48" d="M24.3306 2.00024L46.1512 21.709L24.3323 41.3379" stroke="#6866F6" stroke-width="3.5" stroke-linecap="round"/>
+                  <path d="M46.1794 2.00024L68 21.709L46.1812 41.3379" stroke="#6866F6" stroke-width="3.5" stroke-linecap="round"/>
+                  </svg>
+              </div>
+
+              <div class="point">
+                <div class="point__block-title">
+                  <div class="point__num">2</div>
+               <div class="point__block-text">
+                    <div class="point__title">Subscribe to telegram bot</div>
+                    <div class="point__title-text">Do not wait any longer and join this bot! Complete easy steps inside and get your FSL</div>
+               </div>
+                </div>
+               <div class="point__buttons">
+                 <a class="point__link-soc" href="#"> <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.23741 6.42183C6.06923 4.31668 9.29121 2.92884 10.9033 2.2583C15.5063 0.343778 16.4627 0.0112053 17.0861 0.000106465C17.2232 -0.00219176 17.5298 0.0317882 17.7284 0.192925C17.8961 0.328986 17.9422 0.512785 17.9643 0.641786C17.9864 0.770786 18.0139 1.06465 17.992 1.29427C17.7426 3.91511 16.6633 10.2752 16.1142 13.2106C15.8818 14.4526 15.4244 14.8691 14.9815 14.9098C14.0189 14.9984 13.288 14.2737 12.3558 13.6626C10.897 12.7064 10.0729 12.1111 8.65691 11.178C7.02048 10.0996 8.08131 9.50692 9.0139 8.53829C9.25797 8.28479 13.4988 4.42739 13.5809 4.07747C13.5912 4.0337 13.6007 3.87057 13.5038 3.78443C13.4069 3.69829 13.2639 3.72775 13.1606 3.75117C13.0143 3.78438 10.6839 5.3247 6.16938 8.37213C5.5079 8.82636 4.90875 9.04767 4.37193 9.03607C3.78013 9.02329 2.64175 8.70146 1.79548 8.42637C0.757494 8.08897 -0.0674757 7.91058 0.00436067 7.33755C0.0417775 7.03909 0.452793 6.73385 1.23741 6.42183Z" fill="white"/>
+                  </svg>
+                   <span>Telegram</span>
+                  </a>
+               </div>
+              </div>
+            
+          </div>
+          <div class="pre-launch__cards">
+            <div class="pre-launch__card">
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/1.png" alt="icon">
+                </div>
+                <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Sign Up Bonus</div>
+                  <div class="pre-launch__card-count">Up to 10$</div>
+                  <div class="pre-launch__card-fls">(20 FLS)</div>
+                </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+            <div class="pre-launch__card">
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/2.png" alt="icon">
+                </div>
+              <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Referral bonus</div>
+                  <div class="pre-launch__card-count">Up to 5$</div>
+                  <div class="pre-launch__card-fls">(10 FLS)</div>
+              </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+            <div class="pre-launch__card">
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/3.png" alt="icon">
+                </div>
+               <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Giveaway</div>
+                  <div class="pre-launch__card-count">$ 12.500</div>
+                  <div class="pre-launch__card-fls">(25 000 FLS)</div>
+               </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+            <div class="pre-launch__card">
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/4.png" alt="icon">
+                </div>
+                <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Sign Up Bonus</div>
+                  <div class="pre-launch__card-count">$ 12.500</div>
+                  <div class="pre-launch__card-fls">(25 000 FLS)</div>
+                </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="pre-launch">
+      <div class="container">
+        <div class="main-top">
+          <h2 class="main-top__title" data-title="Pre-Launch ">
+            Pre-Launch <span class="violet-text">Event </span>
+          </h2>
+        </div>
+        <div class="pre-launch__content">
+          <div class="pre-launch__points">
+  
+              <div class="point">
+                <div class="point__block-title">
+                  <div class="point__num">1</div>
+                <div class="point__block-text">
+                    <div class="point__title">Copy unique code</div>
+                    <div class="point__title-text">One step! Copy your unique code tocomplete all sign up steps and earn crypto reward</div>
+                </div>
+                </div>
+                <button class="main-button point-btn" data-btn-modal="connect">
+                  Connect wallet
+                  <svg width="24" height="24">
+                    <use href="img/sprite/sprite.svg#main-arrow"></use>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="points-arrow">
+                <svg width="71" height="44" viewBox="0 0 71 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.48242 2.00024L24.303 21.709L2.48419 41.3379" stroke="#6866F6" stroke-opacity="0.24" stroke-width="3.5" stroke-linecap="round"/>
+                  <path opacity="0.48" d="M24.3306 2.00024L46.1512 21.709L24.3323 41.3379" stroke="#6866F6" stroke-width="3.5" stroke-linecap="round"/>
+                  <path d="M46.1794 2.00024L68 21.709L46.1812 41.3379" stroke="#6866F6" stroke-width="3.5" stroke-linecap="round"/>
+                  </svg>
+              </div>
+
+              <div class="point">
+                <div class="point__block-title">
+                  <div class="point__num">2</div>
+               <div class="point__block-text">
+                    <div class="point__title">Subscribe to telegram bot</div>
+                    <div class="point__title-text">Do not wait any longer and join this bot! Complete easy steps inside and get your FSL</div>
+               </div>
+                </div>
+               <div class="point__buttons">
+                 <a class="point__link-soc" href="#"> <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.23741 6.42183C6.06923 4.31668 9.29121 2.92884 10.9033 2.2583C15.5063 0.343778 16.4627 0.0112053 17.0861 0.000106465C17.2232 -0.00219176 17.5298 0.0317882 17.7284 0.192925C17.8961 0.328986 17.9422 0.512785 17.9643 0.641786C17.9864 0.770786 18.0139 1.06465 17.992 1.29427C17.7426 3.91511 16.6633 10.2752 16.1142 13.2106C15.8818 14.4526 15.4244 14.8691 14.9815 14.9098C14.0189 14.9984 13.288 14.2737 12.3558 13.6626C10.897 12.7064 10.0729 12.1111 8.65691 11.178C7.02048 10.0996 8.08131 9.50692 9.0139 8.53829C9.25797 8.28479 13.4988 4.42739 13.5809 4.07747C13.5912 4.0337 13.6007 3.87057 13.5038 3.78443C13.4069 3.69829 13.2639 3.72775 13.1606 3.75117C13.0143 3.78438 10.6839 5.3247 6.16938 8.37213C5.5079 8.82636 4.90875 9.04767 4.37193 9.03607C3.78013 9.02329 2.64175 8.70146 1.79548 8.42637C0.757494 8.08897 -0.0674757 7.91058 0.00436067 7.33755C0.0417775 7.03909 0.452793 6.73385 1.23741 6.42183Z" fill="white"/>
+                  </svg>
+                   <span>Telegram</span>
+                  </a>
+               </div>
+              </div>
+            
+          </div>
+          <div class="pre-launch__cards">
+            <div class="pre-launch__card check-active">
+
+              <div class="pre-launch__card-check ">
+                <img src="img/pre-launch/icon/check.svg" alt="icon">
+                <p>Сompleted!</p>
+              </div>
+
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/1.png" alt="icon">
+                </div>
+                <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Sign Up Bonus</div>
+                  <div class="pre-launch__card-count">Up to 10$</div>
+                  <div class="pre-launch__card-fls">(20 FLS)</div>
+                </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+            <div class="pre-launch__card check-active">
+
+              <div class="pre-launch__card-check ">
+                <img src="img/pre-launch/icon/check.svg" alt="icon">
+                <p>Сompleted!</p>
+              </div>
+
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/2.png" alt="icon">
+                </div>
+              <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Referral bonus</div>
+                  <div class="pre-launch__card-count">Up to 5$</div>
+                  <div class="pre-launch__card-fls">(10 FLS)</div>
+              </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+            <div class="pre-launch__card">
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/3.png" alt="icon">
+                </div>
+               <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Giveaway</div>
+                  <div class="pre-launch__card-count">$ 12.500</div>
+                  <div class="pre-launch__card-fls">(25 000 FLS)</div>
+               </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+            <div class="pre-launch__card">
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/4.png" alt="icon">
+                </div>
+                <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Sign Up Bonus</div>
+                  <div class="pre-launch__card-count">$ 12.500</div>
+                  <div class="pre-launch__card-fls">(25 000 FLS)</div>
+                </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="pre-launch">
+      <div class="container">
+        <div class="main-top">
+          <h2 class="main-top__title" data-title="Pre-Launch ">
+            Pre-Launch <span class="violet-text">Event </span>
+          </h2>
+        </div>
+        <div class="pre-launch__content">
+          <div class="pre-launch__points points-pre-launch">
+  
+              <div class="point">
+                <div class="point__block-title">
+                  
+                <div class="point__block-text">
+                    <div class="point__title">Your Referral Link:</div>
+                    <form action="#" class="copy-form buffer form-pre-launch">
+                      <label for="#" class="copy-form__label">
+                        <input type="text" class="copy-form__input buffer__input" value="https://flixswap.org/reg=vladnovsky123">
+                        <button class="copy-form__btn buffer__button">
+                          <svg width="24" height="24">
+                            <use href="img/sprite/sprite.svg#copy"></use>
+                          </svg>
+                        </button>
+                      </label>
+                    </form>
+                    <div class="point__title-text">One step! Copy your unique code tocomplete all sign up steps and earn crypto reward</div>
+                </div>
+                </div>
+                
+              </div>
+
+              <div class="points-arrow">
+                <svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.1">
+<path d="M18.6958 66.5449L18.6958 73.4697L63.5132 71.7961L63.5132 68.7763L18.6958 66.5449Z" fill="url(#paint0_linear_0_1735)"/>
+<path d="M120.482 66.5449L120.482 73.4697L75.6643 71.7961L75.6643 68.7763L120.482 66.5449Z" fill="url(#paint1_linear_0_1735)"/>
+<path d="M73.0527 19.1152H66.128L67.8015 63.9326H70.8213L73.0527 19.1152Z" fill="url(#paint2_linear_0_1735)"/>
+<path d="M73.0527 120.901L66.128 120.901L67.8015 76.084L70.8214 76.084L73.0527 120.901Z" fill="url(#paint3_linear_0_1735)"/>
+<path d="M27.2471 41.5613L23.7847 47.5583L63.4344 68.5176L64.9443 65.9024L27.2471 41.5613Z" fill="url(#paint4_linear_0_1735)"/>
+<path d="M115.396 92.4529L111.934 98.4499L73.9577 74.5919L75.4676 71.9766L115.396 92.4529Z" fill="url(#paint5_linear_0_1735)"/>
+<path d="M98.04 27.6641L92.043 24.2017L71.0837 63.8514L73.6989 65.3613L98.04 27.6641Z" fill="url(#paint6_linear_0_1735)"/>
+<path d="M47.1445 115.815L41.1475 112.353L65.0055 74.3769L67.6208 75.8868L47.1445 115.815Z" fill="url(#paint7_linear_0_1735)"/>
+<path d="M46.9883 24.2629L41.0023 27.7443L64.9808 65.6446L67.5912 64.1264L46.9883 24.2629Z" fill="url(#paint8_linear_0_1735)"/>
+<path d="M98.1582 112.25L92.1722 115.732L71.087 76.1486L73.6975 74.6304L98.1582 112.25Z" fill="url(#paint9_linear_0_1735)"/>
+<path d="M115.312 47.4055L111.83 41.4195L73.9299 65.398L75.4481 68.0084L115.312 47.4055Z" fill="url(#paint10_linear_0_1735)"/>
+<path d="M27.3262 98.5764L23.8448 92.5904L63.4278 71.5053L64.946 74.1157L27.3262 98.5764Z" fill="url(#paint11_linear_0_1735)"/>
+</g>
+<g clip-path="url(#clip0_0_1735)">
+<path d="M53.5169 100.797L53.4702 75.2021L70.1817 84.044C72.6065 85.3294 72.7305 88.7579 70.4047 90.2148L53.5164 100.797H53.5169Z" fill="#6866F6" fill-opacity="0.44"/>
+<path d="M53.4259 50.9683L53.4026 38.0615L107.71 66.8399L100.775 71.1852C98.1662 72.8201 94.8816 72.935 92.1647 71.4863L53.4259 50.9683Z" fill="#6866F6" fill-opacity="0.6"/>
+<path d="M82.4936 84.5658L45.1582 65.0282V52.1257L77.0111 68.737C83.5552 72.3042 82.8756 75.2647 82.4936 84.5654V84.5658Z" fill="#6866F6"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1735" x1="18.6958" y1="70.0073" x2="49.8715" y2="73.1101" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_1735" x1="120.482" y1="70.0073" x2="89.306" y2="73.1101" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_1735" x1="69.5904" y1="19.1152" x2="66.4876" y2="50.291" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint3_linear_0_1735" x1="69.5904" y1="120.901" x2="66.4876" y2="89.7256" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint4_linear_0_1735" x1="25.5159" y1="44.5598" x2="50.9635" y2="62.8347" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint5_linear_0_1735" x1="113.665" y1="95.4514" x2="85.1147" y2="82.5506" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint6_linear_0_1735" x1="95.0415" y1="25.9329" x2="76.7666" y2="51.3805" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint7_linear_0_1735" x1="44.146" y1="114.084" x2="57.0468" y2="85.5339" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint8_linear_0_1735" x1="43.9953" y1="26.0036" x2="56.9867" y2="54.5129" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint9_linear_0_1735" x1="95.1652" y1="113.991" x2="76.8095" y2="88.6015" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint10_linear_0_1735" x1="113.571" y1="44.4125" x2="85.0616" y2="57.4039" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="paint11_linear_0_1735" x1="25.5855" y1="95.5834" x2="50.9749" y2="77.2278" gradientUnits="userSpaceOnUse">
+<stop offset="0.0672622" stop-color="white" stop-opacity="0"/>
+<stop offset="0.718318" stop-color="white" stop-opacity="0.33"/>
+<stop offset="1" stop-color="white" stop-opacity="0.12"/>
+</linearGradient>
+<clipPath id="clip0_0_1735">
+<rect width="62.5518" height="62.7354" fill="white" transform="translate(45.1582 38.0615)"/>
+</clipPath>
+</defs>
+</svg>
+
+              </div>
+
+              <div class="point">
+                <div class="point__block-title">
+                  <div class="point__icon"><svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="29" cy="29" r="29" fill="#6866F6"/>
+                    <g clip-path="url(#clip0_0_1710)">
+                    <path d="M16.2566 50.8639L16.2241 33.0247L27.8718 39.1873C29.5618 40.0832 29.6482 42.4728 28.0272 43.4882L16.2563 50.8639H16.2566Z" fill="white"/>
+                    <path d="M16.1935 16.1342L16.1772 7.13843L54.0287 27.1965L49.1953 30.2251C47.3768 31.3646 45.0875 31.4447 43.1938 30.435L16.1935 16.1342Z" fill="white" fill-opacity="0.6"/>
+                    <path d="M36.4529 39.5514L10.4307 25.9339V16.9412L32.6316 28.5189C37.1928 31.0052 36.7191 33.0686 36.4529 39.5511V39.5514Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_0_1710">
+                    <rect width="43.6503" height="43.7875" fill="white" transform="translate(10.4043 7.10059)"/>
+                    </clipPath>
+                    </defs>
+                    </svg></div>
+               <div class="point__block-text">
+                    <div class="point__title-count">Your Balance:</div>
+                    <div class="point__count">10000.00000 <span>FSL</span></div>
+               </div>
+                </div>
+                <div class="point__title">Share Content:</div>
+               <div class="point__buttons buttons-point">
+                 <a class="point__link-soc" href="#"> <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.23741 6.42183C6.06923 4.31668 9.29121 2.92884 10.9033 2.2583C15.5063 0.343778 16.4627 0.0112053 17.0861 0.000106465C17.2232 -0.00219176 17.5298 0.0317882 17.7284 0.192925C17.8961 0.328986 17.9422 0.512785 17.9643 0.641786C17.9864 0.770786 18.0139 1.06465 17.992 1.29427C17.7426 3.91511 16.6633 10.2752 16.1142 13.2106C15.8818 14.4526 15.4244 14.8691 14.9815 14.9098C14.0189 14.9984 13.288 14.2737 12.3558 13.6626C10.897 12.7064 10.0729 12.1111 8.65691 11.178C7.02048 10.0996 8.08131 9.50692 9.0139 8.53829C9.25797 8.28479 13.4988 4.42739 13.5809 4.07747C13.5912 4.0337 13.6007 3.87057 13.5038 3.78443C13.4069 3.69829 13.2639 3.72775 13.1606 3.75117C13.0143 3.78438 10.6839 5.3247 6.16938 8.37213C5.5079 8.82636 4.90875 9.04767 4.37193 9.03607C3.78013 9.02329 2.64175 8.70146 1.79548 8.42637C0.757494 8.08897 -0.0674757 7.91058 0.00436067 7.33755C0.0417775 7.03909 0.452793 6.73385 1.23741 6.42183Z" fill="white"/>
+                  </svg>
+                   <span>Telegram</span>
+                  </a>
+                  <a class="point__link-soc soc-twit" href="#"> <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.5667 3.40435C12.5753 3.53092 12.5753 3.6575 12.5753 3.78524C12.5753 7.67753 9.68596 12.1665 4.40276 12.1665V12.1642C2.84209 12.1665 1.31383 11.7081 0 10.8436C0.226935 10.8716 0.455007 10.8856 0.683648 10.8862C1.97701 10.8874 3.23339 10.4423 4.2509 9.6228C3.02182 9.59888 1.94402 8.77703 1.5675 7.5772C1.99805 7.66236 2.44168 7.64486 2.86427 7.52646C1.52427 7.24881 0.560228 6.0414 0.560228 4.63917C0.560228 4.62634 0.560228 4.61409 0.560228 4.60184C0.959496 4.82991 1.40654 4.95648 1.86382 4.97048C0.601747 4.10546 0.212716 2.38359 0.974853 1.03736C2.43315 2.87764 4.58477 3.99639 6.8945 4.1148C6.66301 3.09171 6.97924 2.01962 7.72545 1.30043C8.88231 0.185177 10.7018 0.242339 11.7892 1.42817C12.4325 1.29809 13.049 1.05603 13.6132 0.713054C13.3988 1.39492 12.9501 1.97413 12.3506 2.34218C12.9199 2.27335 13.4762 2.11703 14 1.87847C13.6144 2.47109 13.1287 2.9873 12.5667 3.40435Z" fill="white"/>
+                    </svg>
+                    
+                     <span> Twitter</span>
+                    </a>
+               </div>
+              </div>
+            
+          </div>
+          <div class="pre-launch__cards">
+            <div class="pre-launch__card check-active">
+
+              <div class="pre-launch__card-check ">
+                <img src="img/pre-launch/icon/check.svg" alt="icon">
+                <p>Сompleted!</p>
+              </div>
+
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/1.png" alt="icon">
+                </div>
+                <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Sign Up Bonus</div>
+                  <div class="pre-launch__card-count">Up to 10$</div>
+                  <div class="pre-launch__card-fls">(20 FLS)</div>
+                </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+            <div class="pre-launch__card check-active">
+
+              <div class="pre-launch__card-check ">
+                <img src="img/pre-launch/icon/check.svg" alt="icon">
+                <p>Сompleted!</p>
+              </div>
+
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/2.png" alt="icon">
+                </div>
+              <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Referral bonus</div>
+                  <div class="pre-launch__card-count">Up to 5$</div>
+                  <div class="pre-launch__card-fls">(10 FLS)</div>
+              </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+            <div class="pre-launch__card">
+              <div class="pre-launch__card-check ">
+                <img src="img/pre-launch/icon/check.svg" alt="icon">
+                <p>Сompleted!</p>
+              </div>
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/3.png" alt="icon">
+                </div>
+               <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Giveaway</div>
+                  <div class="pre-launch__card-count">$ 12.500</div>
+                  <div class="pre-launch__card-fls">(25 000 FLS)</div>
+               </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+            <div class="pre-launch__card">
+              <div class="pre-launch__card-check ">
+                <img src="img/pre-launch/icon/check.svg" alt="icon">
+                <p>Сompleted!</p>
+              </div>
+              <div class="pre-launch__card-up">
+                <div class="pre-launch__card-icon">
+                  <img src="img/pre-launch/icon/4.png" alt="icon">
+                </div>
+                <div class="pre-launch__block-text">
+                  <div class="pre-launch__card-title">Sign Up Bonus</div>
+                  <div class="pre-launch__card-count">$ 12.500</div>
+                  <div class="pre-launch__card-fls">(25 000 FLS)</div>
+                </div>
+              </div>
+              <div class="pre-launch__card-down">
+                <p>* just for a few easy steps</p>
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.00016 15.6134C11.6668 15.6134 14.6668 12.6154 14.6668 8.95133C14.6668 5.28722 11.6668 2.28931 8.00016 2.28931C4.3335 2.28931 1.3335 5.28722 1.3335 8.95133C1.3335 12.6154 4.3335 15.6134 8.00016 15.6134Z" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8 6.28662V9.61763" stroke="#BAC9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.99658 11.6157H8.00257" stroke="#BAC9F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="our-benefits dark-section benefits-section">
+      <div class="container">
+        <div class="our-benefits__box box-benefits benefits-carousel">
+          <div class="box-benefits__content">
+            <div class="main-top">
+              <h2 class="main-top__title" data-title="">
+                <span class="violet-text">Event </span>Descriptions
+              </h2>
+            </div>
+            <div class="main-top__text text-benefits">
+            <p>  A token contract is simply a smart contract. A BEP-20 token contract is defined by the contract’s address and the total supply of tokens available to it but has several optional items that are usually provided as well to provide more detail to users. These are the token’s name, its symbol, and the number of decimals. BEP-20: the most widespread token standard for crypto assets on BNB Chain.</p>
+
+            <p>The factory design pattern is a pretty common pattern used in programming. The idea is simple, instead of creating objects directly, you have the Factory that creates objects for you. In the case</p>
+            </div>
+            
+          </div>
+
+          <div class="carousel">
+
+            <svg class="bg-carousel" width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.1" filter="url(#filter0_f_0_1196)">
+              <circle cx="255.964" cy="256.037" r="248.037" fill="url(#paint0_radial_0_1196)"/>
+              </g>
+              <g opacity="0.2" filter="url(#filter1_f_0_1196)">
+              <circle cx="255.963" cy="256.037" r="181.653" fill="url(#paint1_radial_0_1196)"/>
+              </g>
+              <g opacity="0.4" filter="url(#filter2_f_0_1196)">
+              <circle cx="255.963" cy="254.792" r="86.632" fill="url(#paint2_radial_0_1196)"/>
+              </g>
+              <defs>
+              <filter id="filter0_f_0_1196" x="0.115867" y="0.189109" width="511.695" height="511.695" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+              <feGaussianBlur stdDeviation="3.90545" result="effect1_foregroundBlur_0_1196"/>
+              </filter>
+              <filter id="filter1_f_0_1196" x="69.428" y="69.5012" width="373.07" height="373.07" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+              <feGaussianBlur stdDeviation="2.4409" result="effect1_foregroundBlur_0_1196"/>
+              </filter>
+              <filter id="filter2_f_0_1196" x="168.355" y="167.184" width="175.217" height="175.217" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+              <feGaussianBlur stdDeviation="0.488181" result="effect1_foregroundBlur_0_1196"/>
+              </filter>
+              <radialGradient id="paint0_radial_0_1196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(255.964 256.037) rotate(90) scale(248.037)">
+              <stop offset="0.90137" stop-color="#1B274E" stop-opacity="0"/>
+              <stop offset="1" stop-color="#3467EA"/>
+              </radialGradient>
+              <radialGradient id="paint1_radial_0_1196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(255.963 256.037) rotate(90) scale(181.653)">
+              <stop offset="0.90137" stop-color="#1B274E" stop-opacity="0"/>
+              <stop offset="1" stop-color="#3467EA"/>
+              </radialGradient>
+              <radialGradient id="paint2_radial_0_1196" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(255.963 254.792) rotate(90) scale(86.632)">
+              <stop offset="0.90137" stop-color="#1B274E" stop-opacity="0"/>
+              <stop offset="1" stop-color="#3467EA"/>
+              </radialGradient>
+              </defs>
+            </svg>
+
+            <div class="carousel_inner">
+               <div class="carousel_item carousel_item__active">
+                  <img src="./img/benefits/slider/1.png" alt="img" class="carousel_img">
+               </div>
+               <div class="carousel_item">
+                  <img src="./img/benefits/slider/1.png" alt="img" class="carousel_img">
+               </div>
+               <div class="carousel_item">
+                  <img src="./img/benefits/slider/1.png" alt="img" class="carousel_img">
+               </div>
+            </div>
+      
+           
+      
+            <div class="carousel_control">
+               <button class="carousel_button carousel_button__prev">
+                  <i class="fas fa-chevron-left"><svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.5 14.5906L8.52969 15.5L0.5 8L8.52969 0.5L9.5 1.40469L2.44531 8L9.5 14.5906Z" fill="white"/>
+                    </svg> </i>
+               </button>
+               <button class="carousel_button carousel_button__next">
+                  <i class="fas fa-chevron-right"> <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.5 14.5906L8.52969 15.5L0.5 8L8.52969 0.5L9.5 1.40469L2.44531 8L9.5 14.5906Z" fill="white"/>
+                    </svg></i>
+               </button>
+            </div>
+         </div>
+        
+
+          
+        </div>
+      </div>
+
+     
+    </section>
+
+    <section class="our-benefits dark-section">
+      <div class="container">
+        <div class="our-benefits__box">
+          <div class="main-top">
+            <h2 class="main-top__title" data-title="Advantages">
+              Advantages <span class="violet-text">Event </span>
+            </h2>
+          </div>
+
+          <div class="our-benefits__inner">
+            <ul class="benefits-list">
+              <li class="benefits-list__item">
+                <div class="benefits-list__icon">
+                  <picture>
+                    <source type='image/webp' srcset='img/benefits.webp'>
+                    <img loading='lazy' width='175' height='152' src='img/benefits.png' alt='image'>
+                  </picture>
+                </div>
+
+                <div class="benefits-list__content">
+                  <span class="benefits-list__title">
+                    No exchange fees
+                  </span>
+
+                  <p class="benefits-list__descr">
+                    0.15% of the commission from each trade is allocated to stimulate liquidity providers.
+                  </p>
+                </div>
+              </li>
+              <li class="benefits-list__item">
+                <div class="benefits-list__icon">
+                  <picture>
+                    <source type='image/webp' srcset='img/benefits2.webp'>
+                    <img loading='lazy' width='175' height='152' src='img/benefits2.png' alt='image'>
+                  </picture>
+                </div>
+
+                <div class="benefits-list__content">
+                  <span class="benefits-list__title">
+                    The Lowest Exchange Fee
+                  </span>
+                  <p class="benefits-list__descr">
+                    Safely buy and sell your cryptocurrency with the lowest exchange fee in the DeFi space.
+                  </p>
+                </div>
+              </li>
+              <li class="benefits-list__item">
+                <div class="benefits-list__icon">
+                  <picture>
+                    <source type='image/webp' srcset='img/benefits3.webp'>
+                    <img loading='lazy' width='180' height='152' src='img/benefits3.png' alt='image'>
+                  </picture>
+                </div>
+
+                <div class="benefits-list__content">
+                  <span class="benefits-list__title">
+                    Referral system with large rewards
+                  </span>
+
+                  <p class="benefits-list__descr">
+                    Make a swap on Biswap at no cost. Up to 50% of the trading fee returned in BSW tokens.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+         
+
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+    <section class="our-benefits dark-section road-map-section">
+      <div class="container">
+     
+            <div class="main-top">
+              <h2 class="main-top__title" data-title="">
+                
+               <span class="violet-text">Road map</span> FSL
+              </h2>
+            </div>
+         <div class="road-map">
+
+           <div class="road-map__items-up">
+
+              <div class="road-map__item">
+                <p class="road-map__item-text">launch</p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20" cy="20" r="20" fill="white"/>
+                      <circle cx="20" cy="20" r="17" fill="url(#paint0_linear_0_1331)"/>
+                      <path d="M15.9875 9.16675V30.8334" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M16.5292 11.3333L25.3042 15.1249C28.8792 16.6416 28.8792 19.2416 25.5208 20.9749L16.5292 25.4166" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <defs>
+                      <linearGradient id="paint0_linear_0_1331" x1="38" y1="3" x2="13" y2="28" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#6260FD"/>
+                      <stop offset="1" stop-color="#6866F6"/>
+                      </linearGradient>
+                      </defs>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="road-map__item item-reverse">
+                <p class="road-map__item-text"></p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="road-map__item">
+                <p class="road-map__item-text">Pre-launch</p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20" cy="20" r="20" fill="white"/>
+                      <circle cx="20" cy="20" r="17" fill="url(#paint0_linear_0_1397)"/>
+                      <g clip-path="url(#clip0_0_1397)">
+                      <path d="M12.4742 33.0764L12.4548 22.4377L19.4011 26.1129C20.4089 26.6472 20.4605 28.0722 19.4937 28.6778L12.4741 33.0764H12.4742Z" fill="white"/>
+                      <path d="M12.4365 12.3648L12.4268 7L35 18.9619L32.1175 20.768C31.033 21.4476 29.6677 21.4954 28.5385 20.8932L12.4365 12.3648Z" fill="white" fill-opacity="0.6"/>
+                      <path d="M24.5187 26.3299L9 18.2089V12.8459L22.2398 19.7505C24.9599 21.2332 24.6774 22.4638 24.5187 26.3297V26.3299Z" fill="white"/>
+                      </g>
+                      <defs>
+                      <linearGradient id="paint0_linear_0_1397" x1="38" y1="3" x2="13" y2="28" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#6260FD"/>
+                      <stop offset="1" stop-color="#6866F6"/>
+                      </linearGradient>
+                      <clipPath id="clip0_0_1397">
+                      <rect width="26" height="26.0763" fill="white" transform="translate(9 7)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="road-map__item item-reverse">
+                <p class="road-map__item-text"></p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="road-map__item">
+                <p class="road-map__item-text">launch</p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20" cy="20" r="20" fill="white"/>
+                      <circle cx="20" cy="20" r="17" fill="url(#paint0_linear_0_1331)"/>
+                      <path d="M15.9875 9.16675V30.8334" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M16.5292 11.3333L25.3042 15.1249C28.8792 16.6416 28.8792 19.2416 25.5208 20.9749L16.5292 25.4166" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <defs>
+                      <linearGradient id="paint0_linear_0_1331" x1="38" y1="3" x2="13" y2="28" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#6260FD"/>
+                      <stop offset="1" stop-color="#6866F6"/>
+                      </linearGradient>
+                      </defs>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="road-map__item item-reverse">
+                <p class="road-map__item-text"></p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                    
+                  </div>
+                </div>
+              </div>
+
+           </div>
+
+           <div class="road-map__items-wave">
+
+              <div class="road-map__items-wrap">
+
+                  <div class="road-map__items">
+        
+                      <div class="road-map__item item-reverse">
+                        <p class="road-map__item-text">Done</p>
+                        <div class="road-map__icon-wrap after-done">
+                          <div class="road-map__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="white"/>
+                              <circle cx="20" cy="20" r="17" fill="#2DD84A"/>
+                              <path d="M27.561 15.4438L20.005 22.9998L16.228 19.2218" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M29 20C29 24.971 24.971 29 20 29C15.029 29 11 24.971 11 20C11 15.029 15.029 11 20 11C21.453 11 22.821 11.353 24.036 11.964" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </div>
+                        </div>
+                      </div>
+        
+                    
+        
+                      <div class="road-map__item ">
+                        <p class="road-map__item-text">Done</p>
+                        <div class="road-map__icon-wrap after-done">
+                          <div class="road-map__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="white"/>
+                              <circle cx="20" cy="20" r="17" fill="#2DD84A"/>
+                              <path d="M27.561 15.4438L20.005 22.9998L16.228 19.2218" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M29 20C29 24.971 24.971 29 20 29C15.029 29 11 24.971 11 20C11 15.029 15.029 11 20 11C21.453 11 22.821 11.353 24.036 11.964" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </div>
+                        </div>
+                      </div>
+        
+                      
+        
+                      <div class="road-map__item item-reverse">
+                        <p class="road-map__item-text">In progress</p>
+                        <div class="road-map__icon-wrap after-progress">
+                          <div class="road-map__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="white"/>
+                              <circle cx="20" cy="20" r="17" fill="#F0B90B"/>
+                              <path d="M11 25.9799L13.55 25.9899C14.46 25.9899 15.31 25.5399 15.81 24.7899L22.2 15.2099C22.7 14.4599 23.55 13.9999 24.46 14.0099L29.01 14.0299" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M27 27.98L29 25.98" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M16.89 16.6197L15.81 15.1197C15.3 14.4097 14.48 13.9897 13.61 13.9997L11 14.0097" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M20.97 23.3804L22.19 24.9504C22.7 25.6104 23.5 26.0004 24.34 26.0004L29.01 25.9803" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M29 14.02L27 12.02" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </div>
+                        </div>
+                      </div>
+        
+                      
+        
+                      <div class="road-map__item non-mb ">
+                        <p class="road-map__item-text">Next</p>
+                        <div class="road-map__icon-wrap after-num">
+                          <div class="road-map__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="white"/>
+                              <circle cx="20" cy="20" r="17" fill="#6260FD"/>
+                              </svg>
+        
+                            <div class="road-map__icon-num">4</div>
+                          </div>
+                        </div>
+                      </div>
+        
+                    
+        
+                      <div class="road-map__item item-reverse non-mb">
+                        <p class="road-map__item-text">Next</p>
+                        <div class="road-map__icon-wrap after-num">
+                          <div class="road-map__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="white"/>
+                              <circle cx="20" cy="20" r="17" fill="#6260FD"/>
+                              </svg>
+        
+                            <div class="road-map__icon-num">5</div>
+                          </div>
+                        </div>
+                      </div>
+        
+                    
+        
+                      <div class="road-map__item non-mb">
+                        <p class="road-map__item-text">Next</p>
+                        <div class="road-map__icon-wrap after-num">
+                          <div class="road-map__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="white"/>
+                              <circle cx="20" cy="20" r="17" fill="#6260FD"/>
+                              </svg>
+        
+                            <div class="road-map__icon-num">6</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="road-map__item non-pc">
+                        <p class="road-map__item-text">Pre-Launch</p>
+                        <div class="road-map__icon-wrap after-num">
+                          <div class="road-map__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="white"/>
+                              <circle cx="20" cy="20" r="17" fill="url(#paint0_linear_0_1397)"/>
+                              <g clip-path="url(#clip0_0_1397)">
+                              <path d="M12.4742 33.0764L12.4548 22.4377L19.4011 26.1129C20.4089 26.6472 20.4605 28.0722 19.4937 28.6778L12.4741 33.0764H12.4742Z" fill="white"/>
+                              <path d="M12.4365 12.3648L12.4268 7L35 18.9619L32.1175 20.768C31.033 21.4476 29.6677 21.4954 28.5385 20.8932L12.4365 12.3648Z" fill="white" fill-opacity="0.6"/>
+                              <path d="M24.5187 26.3299L9 18.2089V12.8459L22.2398 19.7505C24.9599 21.2332 24.6774 22.4638 24.5187 26.3297V26.3299Z" fill="white"/>
+                              </g>
+                              <defs>
+                              <linearGradient id="paint0_linear_0_1397" x1="38" y1="3" x2="13" y2="28" gradientUnits="userSpaceOnUse">
+                              <stop stop-color="#6260FD"/>
+                              <stop offset="1" stop-color="#6866F6"/>
+                              </linearGradient>
+                              <clipPath id="clip0_0_1397">
+                              <rect width="26" height="26.0763" fill="white" transform="translate(9 7)"/>
+                              </clipPath>
+                              </defs>
+                              </svg>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="road-map__item non-pc">
+                        <p class="road-map__item-text">Pre-Launch</p>
+                        <div class="road-map__icon-wrap after-num">
+                          <div class="road-map__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="white"/>
+                              <circle cx="20" cy="20" r="17" fill="url(#paint0_linear_0_1397)"/>
+                              <g clip-path="url(#clip0_0_1397)">
+                              <path d="M12.4742 33.0764L12.4548 22.4377L19.4011 26.1129C20.4089 26.6472 20.4605 28.0722 19.4937 28.6778L12.4741 33.0764H12.4742Z" fill="white"/>
+                              <path d="M12.4365 12.3648L12.4268 7L35 18.9619L32.1175 20.768C31.033 21.4476 29.6677 21.4954 28.5385 20.8932L12.4365 12.3648Z" fill="white" fill-opacity="0.6"/>
+                              <path d="M24.5187 26.3299L9 18.2089V12.8459L22.2398 19.7505C24.9599 21.2332 24.6774 22.4638 24.5187 26.3297V26.3299Z" fill="white"/>
+                              </g>
+                              <defs>
+                              <linearGradient id="paint0_linear_0_1397" x1="38" y1="3" x2="13" y2="28" gradientUnits="userSpaceOnUse">
+                              <stop stop-color="#6260FD"/>
+                              <stop offset="1" stop-color="#6866F6"/>
+                              </linearGradient>
+                              <clipPath id="clip0_0_1397">
+                              <rect width="26" height="26.0763" fill="white" transform="translate(9 7)"/>
+                              </clipPath>
+                              </defs>
+                              </svg>
+                          </div>
+                        </div>
+                      </div>
+
+        
+                  </div>
+
+              </div>
+
+              <div class="road-map__waves">
+                   
+                <div class="waves-wrap">
+                  <svg class="non-mb" width="238" height="82" viewBox="0 0 238 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M236.578 2L191.938 49.194C152.485 90.9041 86.0924 90.9041 46.6397 49.1941L1.99977 2" stroke="url(#paint0_linear_0_1323)" stroke-width="3"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_0_1323" x1="119.289" y1="389.145" x2="119.289" y2="1.99999" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#6866F6"/>
+                    <stop offset="1" stop-color="#6866F6" stop-opacity="0"/>
+                    </linearGradient>
+                    </defs>
+                    </svg>
+                    <svg class="non-pc" width="138" height="342" viewBox="0 0 138 342" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.00001 340.512L104.261 243.728C145.942 204.279 145.942 137.919 104.261 98.4704L2.00001 1.68719" stroke="url(#paint0_linear_0_477)" stroke-width="3"/>
+                      <defs>
+                      <linearGradient id="paint0_linear_0_477" x1="560.863" y1="171.099" x2="1.99998" y2="171.099" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#6866F6"/>
+                      <stop offset="1" stop-color="#6866F6" stop-opacity="0"/>
+                      </linearGradient>
+                      </defs>
+                      </svg>
+
+                </div>
+
+                 <div class="waves-wrap">
+                    <svg class="non-mb" width="238" height="82" viewBox="0 0 238 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M236.265 80L191.625 32.806C152.173 -8.90408 85.7794 -8.9041 46.3267 32.8059L1.68678 80" stroke="url(#paint0_linear_0_1325)" stroke-width="3"/>
+                      <defs>
+                      <linearGradient id="paint0_linear_0_1325" x1="118.976" y1="-307.145" x2="118.976" y2="80" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#6866F6"/>
+                      <stop offset="1" stop-color="#6866F6" stop-opacity="0"/>
+                      </linearGradient>
+                      </defs>
+                      </svg>
+                      <svg class="non-pc" width="138" height="342" viewBox="0 0 138 342" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M136 340.338L33.7394 243.555C-7.94219 204.106 -7.94218 137.746 33.7394 98.2966L136 1.51336" stroke="url(#paint0_linear_0_476)" stroke-width="3"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_0_476" x1="-422.863" y1="170.926" x2="136" y2="170.926" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#6866F6"/>
+                        <stop offset="1" stop-color="#6866F6" stop-opacity="0"/>
+                        </linearGradient>
+                        </defs>
+                        </svg>
+
+                 </div>
+
+                    <div class="waves-wrap">
+                      <svg class="non-mb" width="238" height="82" viewBox="0 0 238 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M236.578 2L191.938 49.194C152.485 90.9041 86.0924 90.9041 46.6397 49.1941L1.99977 2" stroke="url(#paint0_linear_0_1323)" stroke-width="3"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_0_1323" x1="119.289" y1="389.145" x2="119.289" y2="1.99999" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#6866F6"/>
+                        <stop offset="1" stop-color="#6866F6" stop-opacity="0"/>
+                        </linearGradient>
+                        </defs>
+                        </svg>
+                        <svg  class="non-pc" width="138" height="342" viewBox="0 0 138 342" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M2.00001 340.512L104.261 243.728C145.942 204.279 145.942 137.919 104.261 98.4704L2.00001 1.68719" stroke="url(#paint0_linear_0_477)" stroke-width="3"/>
+                          <defs>
+                          <linearGradient id="paint0_linear_0_477" x1="560.863" y1="171.099" x2="1.99998" y2="171.099" gradientUnits="userSpaceOnUse">
+                          <stop stop-color="#6866F6"/>
+                          <stop offset="1" stop-color="#6866F6" stop-opacity="0"/>
+                          </linearGradient>
+                          </defs>
+                          </svg>
+
+                    </div>
+
+                      <div class="waves-wrap">
+                        <svg  class="non-mb" width="238" height="82" viewBox="0 0 238 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M236.265 80L191.625 32.806C152.173 -8.90408 85.7794 -8.9041 46.3267 32.8059L1.68678 80" stroke="url(#paint0_linear_0_1325)" stroke-width="3"/>
+                          <defs>
+                          <linearGradient id="paint0_linear_0_1325" x1="118.976" y1="-307.145" x2="118.976" y2="80" gradientUnits="userSpaceOnUse">
+                          <stop stop-color="#6866F6"/>
+                          <stop offset="1" stop-color="#6866F6" stop-opacity="0"/>
+                          </linearGradient>
+                          </defs>
+                          </svg>
+
+                          <svg class="non-pc" width="138" height="342" viewBox="0 0 138 342" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M136 340.338L33.7394 243.555C-7.94219 204.106 -7.94218 137.746 33.7394 98.2966L136 1.51336" stroke="url(#paint0_linear_0_476)" stroke-width="3"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_0_476" x1="-422.863" y1="170.926" x2="136" y2="170.926" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#6866F6"/>
+                            <stop offset="1" stop-color="#6866F6" stop-opacity="0"/>
+                            </linearGradient>
+                            </defs>
+                            </svg>
+                      </div>
+
+                        <div class="waves-wrap non-mb">
+                          <svg class="non-mb" width="238" height="82" viewBox="0 0 238 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M236.578 2L191.938 49.194C152.485 90.9041 86.0924 90.9041 46.6397 49.1941L1.99977 2" stroke="url(#paint0_linear_0_1323)" stroke-width="3"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_0_1323" x1="119.289" y1="389.145" x2="119.289" y2="1.99999" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#6866F6"/>
+                            <stop offset="1" stop-color="#6866F6" stop-opacity="0"/>
+                            </linearGradient>
+                            </defs>
+                            </svg>
+                           
+
+                        </div>
+
+                          
+
+                      
+             </div>
+
+           </div>
+
+           <div class="road-map__items-down">
+
+
+              <div class="road-map__item item-reverse">
+                <p class="road-map__item-text"></p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="road-map__item item-reverse">
+                <p class="road-map__item-text">launch</p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20" cy="20" r="20" fill="white"/>
+                      <circle cx="20" cy="20" r="17" fill="url(#paint0_linear_0_1331)"/>
+                      <path d="M15.9875 9.16675V30.8334" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M16.5292 11.3333L25.3042 15.1249C28.8792 16.6416 28.8792 19.2416 25.5208 20.9749L16.5292 25.4166" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <defs>
+                      <linearGradient id="paint0_linear_0_1331" x1="38" y1="3" x2="13" y2="28" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#6260FD"/>
+                      <stop offset="1" stop-color="#6866F6"/>
+                      </linearGradient>
+                      </defs>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+
+  
+              <div class="road-map__item item-reverse">
+                <p class="road-map__item-text"></p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="road-map__item item-reverse">
+                <p class="road-map__item-text">launch</p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20" cy="20" r="20" fill="white"/>
+                      <circle cx="20" cy="20" r="17" fill="url(#paint0_linear_0_1331)"/>
+                      <path d="M15.9875 9.16675V30.8334" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M16.5292 11.3333L25.3042 15.1249C28.8792 16.6416 28.8792 19.2416 25.5208 20.9749L16.5292 25.4166" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <defs>
+                      <linearGradient id="paint0_linear_0_1331" x1="38" y1="3" x2="13" y2="28" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#6260FD"/>
+                      <stop offset="1" stop-color="#6866F6"/>
+                      </linearGradient>
+                      </defs>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="road-map__item item-reverse">
+                <p class="road-map__item-text"></p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                   
+                  </div>
+                </div>
+              </div>
+
+              <div class="road-map__item item-reverse">
+                <p class="road-map__item-text">launch</p>
+                <div class="road-map__icon-wrap">
+                  <div class="road-map__icon">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="20" cy="20" r="20" fill="white"/>
+                      <circle cx="20" cy="20" r="17" fill="url(#paint0_linear_0_1331)"/>
+                      <path d="M15.9875 9.16675V30.8334" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M16.5292 11.3333L25.3042 15.1249C28.8792 16.6416 28.8792 19.2416 25.5208 20.9749L16.5292 25.4166" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                      <defs>
+                      <linearGradient id="paint0_linear_0_1331" x1="38" y1="3" x2="13" y2="28" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#6260FD"/>
+                      <stop offset="1" stop-color="#6866F6"/>
+                      </linearGradient>
+                      </defs>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+
+           </div>
+
+         </div>
+            
+       
+      </div>
+    
+     
+    </section>
+
+    <section class="our-benefits last-section">
+      <div class="container">
+        <div class="our-benefits__box box-benefits _box-benefits-cont">
+          <div class="box-benefits__content ">
+            <div class="main-top">
+              <h2 class="main-top__title-benefits" data-title="">
+                Сonditions of <span class="violet-text">Participation</span>
+              </h2>
+            </div>
+            <div class="main-top__text text-benefits ">
+            <p>A token contract is simply a smart contract. A BEP-20 token contract is defined by the contract’s address and the total supply of tokens available to it but has several optional items that are usually provided as well to provide more detail to users. These are the token’s name, its symbol, and the number of decimals. BEP-20: the most widespread token standard for crypto assets on BNB Chain.</p>
+
+            <p>A token contract is simply a smart contract. A BEP-20 token contract is defined by the contract’s address and the total supply of tokens available to it but has several optional items that are usually provided as well to provide more detail to users. These are the token’s name, its symbol, and the number of decimals. BEP-20: the most widespread token standard for crypto assets on BNB Chain.</p>
+            </div>
+            
+          </div>
+          <div class="box-benefits__picture">
+            <img src="img/benefits/2.png" alt="picture">
+          </div>
+
+          
+        </div>
+      </div>
+      <div class='slider-line swiper-container our-benefits__line'>
+        <ul class='swiper-wrapper'>
+          <li class='swiper-slide'>
+            Flixswap
+          </li>
+        </ul>
+      </div>
+     
+    </section>
+
+
+
+   
+
+   
+
+  </main>
+
+
+
+  <footer style="opacity: 0;">
+  <div class="container">
+
+    <div class="footer-inner">
+      <div class="footer">
+        <div class="footer__coll">
+          <a href="#" class="footer__logo">
+            <svg width='141' height='34'>
+              <use href='img/sprite/sprite.svg#logo'></use>
+            </svg>
+          </a>
+
+          
+
+          <span class="footer__label">
+            <svg width="94" height="25">
+              <use href='img/sprite/sprite.svg#main-logo'></use>
+            </svg>
+          </span>
+
+        </div>
+
+        <ul class="footer__nav">
+          <li class="footer__nav-item">
+            <a href="index.html" class="footer__nav-link">
+              <svg class="svg-pc" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.6377 5.90604C16.6487 6.06878 16.6487 6.23152 16.6487 6.39575C16.6487 11.4001 12.9339 17.1717 6.14116 17.1717V17.1687C4.13458 17.1717 2.16968 16.5822 0.480469 15.4708C0.772242 15.5068 1.06548 15.5248 1.35945 15.5256C3.02233 15.5271 4.63769 14.9549 5.94592 13.9012C4.36566 13.8704 2.97992 12.8138 2.49583 11.2711C3.04939 11.3806 3.61977 11.3581 4.1631 11.2059C2.44025 10.8489 1.20076 9.29654 1.20076 7.49367C1.20076 7.47717 1.20076 7.46142 1.20076 7.44567C1.71411 7.7389 2.28888 7.90164 2.87681 7.91964C1.25414 6.80747 0.753961 4.59364 1.73385 2.86277C3.60881 5.22884 6.37517 6.66723 9.34482 6.81947C9.0472 5.50407 9.45378 4.12567 10.4132 3.20099C11.9006 1.7671 14.2399 1.8406 15.6381 3.36523C16.4651 3.19799 17.2578 2.88677 17.9832 2.4458C17.7075 3.32249 17.1306 4.06718 16.3598 4.54039C17.0918 4.4519 17.807 4.25092 18.4805 3.94419C17.9847 4.70613 17.3602 5.36983 16.6377 5.90604Z" fill="#ABB8EB"/>
+                </svg>
+                <svg class="svg-mb" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 19C0 8.50659 8.50659 0 19 0C29.4934 0 38 8.50659 38 19C38 29.4934 29.4934 38 19 38C8.50659 38 0 29.4934 0 19ZM26.2437 13.6562C27.075 13.5375 27.7875 13.4187 28.5 13.0625C28.025 13.8938 27.3125 14.6062 26.4812 15.0813C26.7188 20.6625 22.6812 26.7188 15.4375 26.7188C13.3 26.7188 11.2812 26.0063 9.5 24.9375C11.5188 25.175 13.6562 24.5812 15.0813 23.5125C13.3 23.5125 11.875 22.325 11.4 20.7812C11.9938 20.9 12.5875 20.7812 13.1813 20.6625C11.4 20.1875 10.0938 18.525 10.0938 16.7437C10.6875 16.9813 11.2812 17.2188 11.875 17.2188C10.2125 16.0312 9.61875 13.775 10.6875 11.9938C12.7063 14.3688 15.5563 15.9125 18.7625 16.0312C18.1688 13.6562 20.0688 11.2812 22.5625 11.2812C23.6313 11.2812 24.7 11.7562 25.4125 12.4688C26.3625 12.2312 27.1938 11.9937 27.9062 11.5188C27.6687 12.4688 27.075 13.1813 26.2437 13.6562Z" fill="#ABB8EB"/>
+                  </svg>
+                  
+             <span> Twitter</span>
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="farming.html" class="footer__nav-link">
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4805 9.66016C18.4805 14.6307 14.451 18.6602 9.48047 18.6602C4.50991 18.6602 0.480469 14.6307 0.480469 9.66016C0.480469 4.68959 4.50991 0.660156 9.48047 0.660156C14.451 0.660156 18.4805 4.68959 18.4805 9.66016ZM9.80298 7.30435C8.9276 7.66846 7.17806 8.42206 4.55438 9.56515C4.12833 9.73458 3.90515 9.90032 3.88484 10.0624C3.8505 10.3363 4.1935 10.4441 4.66056 10.591C4.7241 10.611 4.78993 10.6317 4.85741 10.6536C5.31694 10.803 5.93508 10.9777 6.25643 10.9847C6.54792 10.991 6.87325 10.8708 7.23244 10.6242C9.68383 8.96941 10.9492 8.13302 11.0287 8.11499C11.0847 8.10226 11.1624 8.08627 11.215 8.13304C11.2677 8.17982 11.2625 8.2684 11.2569 8.29216C11.2229 8.43701 9.87657 9.68872 9.17981 10.3365C8.96259 10.5384 8.80851 10.6817 8.77702 10.7144C8.70646 10.7877 8.63456 10.857 8.56545 10.9236C8.13854 11.3352 7.8184 11.6438 8.58317 12.1478C8.95067 12.3899 9.24475 12.5902 9.53814 12.79C9.85857 13.0082 10.1782 13.2259 10.5917 13.4969C10.697 13.566 10.7976 13.6377 10.8956 13.7076C11.2685 13.9734 11.6035 14.2122 12.0174 14.1741C12.2579 14.152 12.5063 13.9259 12.6325 13.2514C12.9306 11.6575 13.5167 8.204 13.6521 6.78089C13.664 6.65621 13.6491 6.49664 13.6371 6.42659C13.6251 6.35654 13.6 6.25674 13.509 6.18286C13.4012 6.09536 13.2347 6.07691 13.1602 6.07822C12.8217 6.08418 12.3024 6.26477 9.80298 7.30435Z" fill="#ABB8EB"/>
+                </svg>
+             <span> Telegram</span>
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="token.html" class="footer__nav-link">
+              <svg class="svg-pc" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_0_1564)">
+                <path d="M5.5571 4.5625C8.36085 4.5625 10.6335 6.85107 10.6335 9.67397C10.6335 12.4969 8.36068 14.7853 5.5571 14.7853C2.75352 14.7853 0.480469 12.4969 0.480469 9.67397C0.480469 6.85107 2.75334 4.5625 5.5571 4.5625ZM13.6641 4.86192C15.066 4.86192 16.2024 7.01613 16.2024 9.67397H16.2026C16.2026 12.3311 15.0662 14.486 13.6643 14.486C12.2624 14.486 11.126 12.3311 11.126 9.67397C11.126 7.01682 12.2622 4.86192 13.6641 4.86192ZM17.5877 5.36313C18.0807 5.36313 18.4805 7.29312 18.4805 9.67397C18.4805 12.0541 18.0808 13.9848 17.5877 13.9848C17.0946 13.9848 16.6952 12.0546 16.6952 9.67397C16.6952 7.2933 17.0948 5.36313 17.5877 5.36313Z" fill="#ABB8EB"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_0_1564">
+                <rect width="18" height="18" fill="white" transform="translate(0.480469 0.660156)"/>
+                </clipPath>
+                </defs>
+              </svg>
+              <svg class="svg-mb" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M19 38C8.5066 38 0 29.4934 0 19C0 8.50658 8.5066 0 19 0C29.4934 0 38 8.50658 38 19C38 29.4934 29.4934 38 19 38ZM11.5188 13.8938C11.6375 14.0125 11.7562 14.25 11.7562 14.4875V22.8C11.875 23.1562 11.7562 23.3938 11.5188 23.6313L9.5 26.0063V26.3625H15.0813V26.0063L13.0625 23.6313C12.9437 23.3938 12.825 23.1562 12.825 22.8V15.5563L17.8125 26.3625H18.2875L22.5625 15.5563V24.225C22.5625 24.4625 22.5625 24.5813 22.4437 24.7L20.9 26.2438V26.6H28.3812V26.2438L26.9563 24.8188C26.8375 24.7 26.8375 24.4625 26.8375 24.3438V13.6562C26.7188 13.4188 26.8375 13.3 26.9563 13.1813L28.5 11.7563V11.4H23.275L19.475 20.7812L15.2 11.4H9.73751V11.7563L11.5188 13.8938Z" fill="#ABB8EB"/>
+                </svg>
+             <span> Medium</span>
+            </a>
+          </li>
+         
+        </ul>
+
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-bottom__info">
+          FixSwap ©. All rights reserved.
+        </span>
+
+        <ul class="footer-bottom__list">
+          <li class="footer-bottom__item">
+            <a href="#" class="footer-bottom__link">
+              Certik
+            </a>
+          </li>
+          <li class="footer-bottom__item">
+            <a href="#" class="footer-bottom__link">
+              Docs
+            </a>
+          </li>
+          <li class="footer-bottom__item">
+            <a href="#" class="footer-bottom__link">
+              Term of Service
+            </a>
+          </li>
+          <li class="footer-bottom__item">
+            <a href="#" class="footer-bottom__link">
+              Privacy Policy
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+
+  </div>
+</footer>
+
+  <div class="overlay fixed-block" data-overlay>
+  <div class="modal modal-connect" data-popup="connect">
+    <div class="modal__box modal-connect__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-connect__top">
+        <h2 class="modal__title modal-connect__title">
+          Connect to wallet
+        </h2>
+        <p>By connecting a wallet, you agree to Fixswap's <a href="#" class="transparent-text">Terms of Use</a></p>
+      </div>
+
+      <ul class="connect-list">
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img1.svg" alt="image" width="30" height="30">
+            Metamask
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img2.svg" alt="image" width="30" height="30">
+            TrustWallet
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img3.svg" alt="image" width="30" height="30">
+            WalletConnect
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img4.svg" alt="image" width="30" height="30">
+            Brave Wallet
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img5.svg" alt="image" width="30" height="30">
+            TokenPocket
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img6.svg" alt="image" width="30" height="30">
+            MathWallet
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img7.svg" alt="image" width="30" height="30">
+            Coin98
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img8.svg" alt="image" width="30" height="30">
+            Binance Chain
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img9.svg" alt="image" width="30" height="30">
+            Coinbase Wallet
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal modal-wallet" data-popup="wallet">
+    <div class="modal__box modal-wallet__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-wallet__top">
+        <h2 class="modal__title modal-wallet__title">
+          You wallet
+        </h2>
+      </div>
+
+      <div class="modal-wallet__inner">
+        <span class="modal-wallet__result">
+          <b class="green-text">Connected</b></span>
+        <span class="modal-wallet__value">0x04cc33A71667fB92F25b14ca8bD21aA1907BB233</span>
+        <div class="modal-wallet__content">
+          <a href="#" class="vertical-card__acc-link">
+            Copy adress
+            <svg width="17" height="17">
+              <use href="img/sprite/sprite.svg#arrow-link"></use>
+            </svg>
+          </a>
+          <a href="#" class="vertical-card__acc-link">
+            View on BscScan
+            <svg width="17" height="17">
+              <use href="img/sprite/sprite.svg#arrow-link"></use>
+            </svg>
+          </a>
+        </div>
+
+
+      </div>
+
+      <button class="modal-wallet__btn">
+        Logout
+        <svg width='24' height='24'>
+          <use href='img/sprite/sprite.svg#main-arrow'></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="modal modal-farming" data-popup="farming">
+    <div class="modal__box modal-farming__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-farming__top">
+        <h2 class="modal__title modal-farming__title">
+          Unstake LP Tokens
+        </h2>
+      </div>
+
+      <div class="modal-farming__inner">
+        <ul class="modal-farming__list">
+          <li class="modal-farming__item">
+            <span class="modal-farming__name">Unstake</span>
+            <span class="modal-farming__name">Balance:0.255894545</span>
+          </li>
+          <li class="modal-farming__item">
+            <span class="modal-farming__value">0</span>
+            <span class="modal-farming__name">BNB-BUSDT
+              <button class="modal-farming__max">Max</button>
+            </span>
+          </li>
+        </ul>
+
+        <div class="modal-farming__content">
+          <button class="modal-farming__btn--mode modal-farming__btn">Cancel</button>
+          <button class="modal-farming__btn">
+            Confirm
+            <svg width='24' height='24'>
+              <use href='img/sprite/sprite.svg#main-arrow'></use>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-roi" data-popup="roi">
+    <div class="modal__box modal-roi__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-roi__top">
+        <h2 class="modal__title modal-roi__title">
+          ROI
+        </h2>
+        <p>Calculated based on current rates. Rates are estimates provided for your convenience only, and by no means
+          represent guaranteed returns.</p>
+      </div>
+
+      <div class="modal-roi__inner">
+        <ul class="modal-roi__list">
+          <li class="modal-roi__item--thead modal-roi__item">
+            <span class="modal-roi__name">Timeframe</span>
+            <span class="modal-roi__name">ROI</span>
+            <span class="modal-roi__name">FLS per $ 1000</span>
+          </li>
+          <li class="modal-roi__item--mode modal-roi__item">
+            <span class="modal-roi__value">1d</span>
+            <span class="modal-roi__value">0,07%</span>
+            <span class="modal-roi__value">3.21</span>
+          </li>
+          <li class="modal-roi__item">
+            <span class="modal-roi__value">7d</span>
+            <span class="modal-roi__value">0,07%</span>
+            <span class="modal-roi__value">3.21</span>
+          </li>
+          <li class="modal-roi__item--mode modal-roi__item">
+            <span class="modal-roi__value">30d</span>
+            <span class="modal-roi__value">0,07%</span>
+            <span class="modal-roi__value">3.21</span>
+          </li>
+          <li class="modal-roi__item">
+            <span class="modal-roi__value">365d</span>
+            <span class="modal-roi__value">0,07%</span>
+            <span class="modal-roi__value">3.21</span>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-back" data-popup="back">
+    <div class="modal__box modal-back__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-back__top">
+        <button class="modal-back__btn" data-btn-inner="connect">
+          <svg width='16' height='11'>
+            <use href='img/sprite/sprite.svg#arrow-back'></use>
+          </svg>
+        </button>
+        <h2 class="modal__title modal-back__title">
+          Back to wallets
+        </h2>
+      </div>
+
+      <div class="modal-back__inner">
+          <div class="modal-back__img">
+            <img src="/img/sprite/open.svg" alt="logo">
+          </div>
+          <span class="modal-back__subtitle">Opening Metamask</span>
+          <p>Please confirm in Metamask</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-welcome" data-popup="welcome">
+    <div class="modal__box modal-welcome__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+      <div class="modal-welcome__top">
+        <div class="modal-welcome__img modal-welcome__img--mode">
+          <img src="/img/community/coin2.png" alt="logo">
+        </div>
+        <div class="modal-welcome__img modal-welcome__img--middle">
+          <img src="/img/sprite/wait.svg" alt="logo">
+        </div>
+        <div class="modal-welcome__img modal-welcome__img--coin">
+          <img src="/img/community/coin1.png" alt="logo">
+        </div>
+      </div>
+
+      <div class="modal-welcome__middle">
+        <h2 class="modal__title modal-welcome__title">
+          Welcome to Flixswap!
+        </h2>
+        <p>Decentralized finance (DeFi) projects aim to create a financial system that operates on a decentralized, open-source, and permissionless blockchain network. DeFi protocols offer a range of financial services, including borrowing and lending, trading, asset management, insurance, and more</p>
+      </div>
+      <div class="modal-welcome__inner">
+          <span class="modal-welcome__subtitle">Our community:</span>
+          <ul class="modal-welcome__list">
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/telegram.svg" alt="telegram">
+              </a>
+            </li>
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/youtube.svg" alt="youtube">
+              </a>
+            </li>
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/img.svg" alt="youtube">
+              </a>
+            </li>
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/instagram.svg" alt="instagram">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-offers" data-popup="offers">
+    <div class="modal__box modal-offers__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+      <div class="modal__top modal-offers__top">
+        <h2 class="modal__title modal-offers__title">
+          <img width="30" height="30" src="/img/sprite/fire1.svg" alt="logo">
+          Hot offers
+        </h2>
+        <p>Stake LP tokens to Earn more tokens!</p>
+      </div>
+      <div class="modal-offers__inner">
+        <div class="modal-offers__wrapper">
+          <span class="modal-offers__subtitle">Hot Pairs:</span>
+          <ul class="pairs-list">
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon3.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon5.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon4.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon3.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-offers__wrapper">
+          <span class="modal-offers__subtitle">Top Pairs:</span>
+          <ul class="pairs-list">
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon3.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon5.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon4.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon3.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-calc" data-popup="calc">
+    <div class="modal__box modal-calc__box" role="dialog" aria-modal="true">
+      <button class="close modal-calc__close" aria-label="Закрыть модальное окно">
+        <svg width='24' height='24'>
+          <use href='img/sprite/sprite.svg#arrow-l'></use>
+        </svg>
+      </button>
+        <h2 class="modal__title modal-calc__title">ROI Calculator</h2>
+      <div class="modal-calc__top">
+          <div class="modal-calc__coll">
+            <span class="modal-calc__value">
+              BSW Staked
+            </span>
+            <button data-btn-inner="token" class="modal-calc__button">
+              <img width='28' height='28' src="/img/token/icon3.svg" alt="image">
+              BSW
+              <svg width='24' height='24'>
+                <use href='img/sprite/sprite.svg#arrow-bottom'></use>
+              </svg>
+            </button>
+            <span class="modal-calc__value">
+              BSW
+            </span>
+          </div>
+          <div class="modal-calc__coll modal-calc__coll--mode">
+            <span class="modal-calc__value">
+              Balance: 110 000 <button class="modal-max">Max</button>
+            </span>
+            <span class="modal-calc__button">
+              1000
+            </span>
+            <span class="modal-calc__value">
+              ~2833.24
+            </span>
+          </div>
+
+      </div>
+      <div class="modal-calc__middle">
+        <span class="modal-calc__value">
+          Staked for:
+        </span>
+        <ul class="staked-list">
+          <li class="staked-list__item active">
+            <a href="#" class="staked-list__value">1D</a>
+          </li>
+          <li class="staked-list__item">
+            <a href="#" class="staked-list__value">2D</a>
+          </li>
+          <li class="staked-list__item">
+            <a href="#" class="staked-list__value">30D</a>
+          </li>
+          <li class="staked-list__item">
+            <a href="#" class="staked-list__value">1Y</a>
+          </li>
+          <li class="staked-list__item">
+            <a href="#" class="staked-list__value">5Y</a>
+          </li>
+        </ul>
+      </div>
+      <div class="modal-calc__bottom">
+        <div class="modal-calc__wrapper">
+          <span class="modal-calc__value">
+            Staked for:
+          </span>
+          <span class="modal-calc__button">$ 2196.21</span>
+          <span class="modal-calc__value">
+            ~ 543.064 CAKE (22.16%)
+          </span>
+        </div>
+        <div class="modal-calc__percent">
+          <svg width="25" height="25">
+            <use href='img/sprite/sprite.svg#calc'></use>
+          </svg>
+          <span class="modal-calc__button">APR: <span class="green-text">31.11%</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal inner-modal" data-popup="token">
+    <div class="modal__box inner-modal__box" role="dialog" aria-modal="true">
+      <h2 class="inner-modal__title">
+        Selec a token
+        <button class="close">
+          <svg width='24' height='24'>
+            <use href='img/sprite/sprite.svg#arrow-l'></use>
+          </svg>
+        </button>
+      </h2>
+
+      <ul class="inner-modal__list">
+        <li class="inner-modal__list-item">
+          <form action="#" class="search-form">
+            <label for="#" class="search-form__label">
+              <button class="search-form__btn">
+                <svg width='24' height='24'>
+                  <use href='img/sprite/sprite.svg#search'></use>
+                </svg>
+              </button>
+              <input type="text" class="search-form__input" placeholder="Search by name or paste address">
+            </label>
+          </form>
+
+          <ul class="token-list">
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon.svg" alt="icon">
+                BNB
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon2.svg" alt="icon">
+                USDT
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon3.svg" alt="icon">
+                BSW
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon4.svg" alt="icon">
+                TRX
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon.svg" alt="icon">
+                BNB
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon2.svg" alt="icon">
+                USDT
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon3.svg" alt="icon">
+                BSW
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon4.svg" alt="icon">
+                TRX
+              </button>
+            </li>
+          </ul>
+
+        </li>
+
+        <li class="inner-modal__list-item">
+          <ul class="coin-list">
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon5.svg" alt="icon">
+                Tether
+              </button>
+              <span class="coin-list__value">
+                10 998,00
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon6.svg" alt="icon">
+                ETH
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon7.svg" alt="icon">
+                CAKE
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon4.svg" alt="icon">
+                TRX
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon.svg" alt="icon">
+                BTC
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon4.svg" alt="icon">
+                TRX
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon.svg" alt="icon">
+                BTC
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal modal-alert" data-popup="alert">
+    <div class="modal__box modal-alert__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-alert__top">
+        <button class="modal-alert__btn" data-btn-inner="connect">
+          <svg width="16" height="11">
+            <use href='img/sprite/sprite.svg#arrow-back'></use>
+          </svg>
+        </button>
+        <h2 class="modal__title modal-alert__title">
+          Back to wallets
+        </h2>
+      </div>
+
+      <div class="modal-alert__inner">
+          <div class="modal-alert__img">
+            <img src="/img/sprite/alert.svg" alt="logo" width="94" height="94">
+          </div>
+          <span class="modal-alert__subtitle">Your wallets is not connected</span>
+          <p>Please try connecting your wallet again</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-error" data-popup="error">
+    <div class="modal__box modal-error__box" role="dialog" aria-modal="true">
+      <div class="modal__top modal-error__top">
+        <h2 class="modal__title modal-error__title">
+          Transaction submitted
+        </h2>
+      </div>
+
+      <div class="modal-error__inner">
+          <div class="modal-error__img">
+            <img src="/img/sprite/error.svg" alt="logo" width="138" height="138">
+          </div>
+          <p>Swap failed</p>
+          <button class="modal-error__btn close">Dismiss</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-wait" data-popup="wait">
+    <div class="modal__box modal-wait__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-wait__top">
+        <h2 class="modal__title modal-wait__title">
+          Waiting for confirmation
+        </h2>
+      </div>
+      <div class="modal-wait__img">
+        <!-- <img src="/img/sprite/wait.svg" alt="logo"> -->
+      </div>
+      <div class="modal-wait__inner">
+        <span class="modal-wait__subtitle">
+          Your wallets is not connected
+        </span>
+        <p>Please try connecting your wallet again</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-submit" data-popup="sumbit">
+    <div class="modal__box modal-submit__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-submit__top">
+        <h2 class="modal__title modal-submit__title">
+          Transaction submitted
+        </h2>
+      </div>
+
+      <div class="modal-submit__inner">
+        <div class="modal-submit__img">
+          <svg width='120' height='120'>
+            <use href='img/sprite/sprite.svg#confirm'></use>
+          </svg>
+        </div>
+        <a class="modal-submit__link" href="#">View on BscScan</a>
+        <button class="modal-submit__btn close mode">Close</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-exchange" data-popup="exchange">
+    <div class="modal__box modal-exchange__box" role="dialog" aria-modal="true">
+      <h2 class="inner-modal__title">
+        You will receive
+        <button class="close">
+          <svg width='24' height='24'>
+            <use href='img/sprite/sprite.svg#arrow-l'></use>
+          </svg>
+        </button>
+      </h2>
+
+      <div class="modal-exchange__middle">
+        <div class="modal-exchange__wrapper">
+          <ul class="modal-exchange__list">
+            <li class="modal-exchange__item">
+              <button class="exchange-btn"></button>
+              <span class="modal-exchange__name">
+                <img width="28" height="28" src="/img/route/icon.svg" alt="image">
+                18.1435</span>
+              <span class="modal-exchange__name">BSW</span>
+            </li>
+            <li class="modal-exchange__item">
+              <span class="modal-exchange__name">
+                <img width="28" height="28" src="/img/swap/img2.svg" alt="image">
+                4.403</span>
+              <span class="modal-exchange__name">USDT</span>
+            </li>
+          </ul>
+          <p>Stake your LP tokens and earn BSW tokens in return</p>
+
+          <button class="modal-exchange__btn">
+            Confirm
+            <svg width="24" height="24">
+              <use href="img/sprite/sprite.svg#main-arrow"></use>
+            </svg>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<div class="main-preloader active">
+  <div class="main-preloader__image"></div>
+</div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
