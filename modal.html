@@ -1,0 +1,1942 @@
+<!DOCTYPE html>
+<html lang="En-en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="Description" content="default">
+    <link rel="shortcut icon" href="img/sprite/fav.svg" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Defi</title>
+
+    <link rel="preload" href="fonts/Inter-Regular.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Inter-Medium.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Inter-SemiBold.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Inter-Bold.woff" as="font" crossorigin="anonymous">
+
+    <link rel="preload" href="fonts/TTFirsNeue-Regular.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/TTFirsNeue-Medium.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/TTFirsNeue-DemiBold.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/TTFirsNeue-ExtraBold.woff" as="font" crossorigin="anonymous">
+
+    <link rel="preload" href="fonts/NunitoSans-Regular.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/NunitoSans-SemiBold.woff" as="font" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+  <header class="header fixed-block" style="opacity: 0;">
+  <div class="header__inner">
+    <div class="container">
+      <div class="header-box">
+          <a href="index.html" class="header-logo header__logo">
+            <picture>
+              <source media='(max-width: 1024px)' width='34' height='34' srcset='img/sprite/mobile-logo.svg'>
+              <img width='140' height='34' src='img/sprite/logo.svg' alt='image'>
+            </picture>
+          </a>
+
+          <button class="burger">
+            <svg width="18" height="10">
+              <use href='img/sprite/sprite.svg#burger'></use>
+            </svg>
+          </button>
+
+          <div class="header-box__inner">
+            
+
+<nav class="main-nav header-box__nav">
+  <ul class="main-nav__list">
+    <li class="main-nav__item">
+      <a href="index.html" class="main-nav__link">
+        Certik
+      </a>
+    </li>
+    <li class="main-nav__item ">
+      <a href="modal.html" class="main-nav__link">
+       
+        Docs
+      </a>
+    </li>
+    <div class="main-nav__list-soc">
+      <li class="main-nav__item item-soc">
+        <a href="index.html" class="main-nav__link link-soc">
+        
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.6377 5.90604C16.6487 6.06878 16.6487 6.23152 16.6487 6.39575C16.6487 11.4001 12.9339 17.1717 6.14116 17.1717V17.1687C4.13458 17.1717 2.16968 16.5822 0.480469 15.4708C0.772242 15.5068 1.06548 15.5248 1.35945 15.5256C3.02233 15.5271 4.63769 14.9549 5.94592 13.9012C4.36566 13.8704 2.97992 12.8138 2.49583 11.2711C3.04939 11.3806 3.61977 11.3581 4.1631 11.2059C2.44025 10.8489 1.20076 9.29654 1.20076 7.49367C1.20076 7.47717 1.20076 7.46142 1.20076 7.44567C1.71411 7.7389 2.28888 7.90164 2.87681 7.91964C1.25414 6.80747 0.753961 4.59364 1.73385 2.86277C3.60881 5.22884 6.37517 6.66723 9.34482 6.81947C9.0472 5.50407 9.45378 4.12567 10.4132 3.20099C11.9006 1.7671 14.2399 1.8406 15.6381 3.36523C16.4651 3.19799 17.2578 2.88677 17.9832 2.4458C17.7075 3.32249 17.1306 4.06718 16.3598 4.54039C17.0918 4.4519 17.807 4.25092 18.4805 3.94419C17.9847 4.70613 17.3602 5.36983 16.6377 5.90604Z" fill="#ABB8EB"/>
+            </svg>
+          
+          Twitter
+        </a>
+      </li>
+      <li class="main-nav__item item-soc">
+        <a href="modal.html" class="main-nav__link link-soc">
+          <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4805 9.66016C18.4805 14.6307 14.451 18.6602 9.48047 18.6602C4.50991 18.6602 0.480469 14.6307 0.480469 9.66016C0.480469 4.68959 4.50991 0.660156 9.48047 0.660156C14.451 0.660156 18.4805 4.68959 18.4805 9.66016ZM9.80298 7.30435C8.9276 7.66846 7.17806 8.42206 4.55438 9.56515C4.12833 9.73458 3.90515 9.90032 3.88484 10.0624C3.8505 10.3363 4.1935 10.4441 4.66056 10.591C4.7241 10.611 4.78993 10.6317 4.85741 10.6536C5.31694 10.803 5.93508 10.9777 6.25643 10.9847C6.54792 10.991 6.87325 10.8708 7.23244 10.6242C9.68383 8.96941 10.9492 8.13302 11.0287 8.11499C11.0847 8.10226 11.1624 8.08627 11.215 8.13304C11.2677 8.17982 11.2625 8.2684 11.2569 8.29216C11.2229 8.43701 9.87657 9.68872 9.17981 10.3365C8.96259 10.5384 8.80851 10.6817 8.77702 10.7144C8.70646 10.7877 8.63456 10.857 8.56545 10.9236C8.13854 11.3352 7.8184 11.6438 8.58317 12.1478C8.95067 12.3899 9.24475 12.5902 9.53814 12.79C9.85857 13.0082 10.1782 13.2259 10.5917 13.4969C10.697 13.566 10.7976 13.6377 10.8956 13.7076C11.2685 13.9734 11.6035 14.2122 12.0174 14.1741C12.2579 14.152 12.5063 13.9259 12.6325 13.2514C12.9306 11.6575 13.5167 8.204 13.6521 6.78089C13.664 6.65621 13.6491 6.49664 13.6371 6.42659C13.6251 6.35654 13.6 6.25674 13.509 6.18286C13.4012 6.09536 13.2347 6.07691 13.1602 6.07822C12.8217 6.08418 12.3024 6.26477 9.80298 7.30435Z" fill="#ABB8EB"/>
+            </svg>
+            
+          Telegram
+        </a>
+      </li>
+      <li class="main-nav__item item-soc">
+        <a href="index.html" class="main-nav__link link-soc">
+          <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_0_1564)">
+            <path d="M5.5571 4.5625C8.36085 4.5625 10.6335 6.85107 10.6335 9.67397C10.6335 12.4969 8.36068 14.7853 5.5571 14.7853C2.75352 14.7853 0.480469 12.4969 0.480469 9.67397C0.480469 6.85107 2.75334 4.5625 5.5571 4.5625ZM13.6641 4.86192C15.066 4.86192 16.2024 7.01613 16.2024 9.67397H16.2026C16.2026 12.3311 15.0662 14.486 13.6643 14.486C12.2624 14.486 11.126 12.3311 11.126 9.67397C11.126 7.01682 12.2622 4.86192 13.6641 4.86192ZM17.5877 5.36313C18.0807 5.36313 18.4805 7.29312 18.4805 9.67397C18.4805 12.0541 18.0808 13.9848 17.5877 13.9848C17.0946 13.9848 16.6952 12.0546 16.6952 9.67397C16.6952 7.2933 17.0948 5.36313 17.5877 5.36313Z" fill="#ABB8EB"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_0_1564">
+            <rect width="18" height="18" fill="white" transform="translate(0.480469 0.660156)"/>
+            </clipPath>
+            </defs>
+            </svg>
+          Medium
+        </a>
+      </li>
+    </div>
+    
+
+  </ul>
+</nav>
+
+
+            <a href="#" class="header-box__logo">
+              <svg width='93' height='25'>
+                <use href='img/sprite/sprite.svg#main-logo'></use>
+              </svg>
+            </a>
+          </div>
+
+          <button class="wallet-button" data-btn-modal="wallet">
+            <svg width='24' height='24'>
+              <use href='img/sprite/sprite.svg#wallet'></use>
+            </svg>
+              0x04...B233
+          </button>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="mobile-menu">
+    <div class="mobile-menu__header">
+      <button class="burger">
+        <svg width="18" height="10">
+          <use href='img/sprite/sprite.svg#burger'></use>
+        </svg>
+      </button>
+
+      <button class="mobile-menu__btn main-button mobile-link" data-btn-modal="connect">
+        Connect wallet
+        <svg width='18' height='18'>
+          <use href='img/sprite/sprite.svg#main-arrow '></use>
+        </svg>
+      </button>
+
+      <a href="index.html" class="header-logo mobile-menu__logo">
+        <img width='34' height='34' srcset='img/sprite/mobile-logo.svg'>
+      </a>
+    </div>
+
+    <div class="mobile-menu__body">
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__item ">
+          <a href="index.html" class="mobile-menu__link mobile-link">
+            Certik
+          </a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="modal.html" class="mobile-menu__link mobile-link global">
+            Docs
+          </a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="farming.html" class="mobile-menu__link mobile-link">
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.6377 5.90604C16.6487 6.06878 16.6487 6.23152 16.6487 6.39575C16.6487 11.4001 12.9339 17.1717 6.14116 17.1717V17.1687C4.13458 17.1717 2.16968 16.5822 0.480469 15.4708C0.772242 15.5068 1.06548 15.5248 1.35945 15.5256C3.02233 15.5271 4.63769 14.9549 5.94592 13.9012C4.36566 13.8704 2.97992 12.8138 2.49583 11.2711C3.04939 11.3806 3.61977 11.3581 4.1631 11.2059C2.44025 10.8489 1.20076 9.29654 1.20076 7.49367C1.20076 7.47717 1.20076 7.46142 1.20076 7.44567C1.71411 7.7389 2.28888 7.90164 2.87681 7.91964C1.25414 6.80747 0.753961 4.59364 1.73385 2.86277C3.60881 5.22884 6.37517 6.66723 9.34482 6.81947C9.0472 5.50407 9.45378 4.12567 10.4132 3.20099C11.9006 1.7671 14.2399 1.8406 15.6381 3.36523C16.4651 3.19799 17.2578 2.88677 17.9832 2.4458C17.7075 3.32249 17.1306 4.06718 16.3598 4.54039C17.0918 4.4519 17.807 4.25092 18.4805 3.94419C17.9847 4.70613 17.3602 5.36983 16.6377 5.90604Z" fill="#ABB8EB"/>
+              </svg>
+
+            Twitter
+          </a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="launch.html" class="mobile-menu__link mobile-link">
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4805 9.66016C18.4805 14.6307 14.451 18.6602 9.48047 18.6602C4.50991 18.6602 0.480469 14.6307 0.480469 9.66016C0.480469 4.68959 4.50991 0.660156 9.48047 0.660156C14.451 0.660156 18.4805 4.68959 18.4805 9.66016ZM9.80298 7.30435C8.9276 7.66846 7.17806 8.42206 4.55438 9.56515C4.12833 9.73458 3.90515 9.90032 3.88484 10.0624C3.8505 10.3363 4.1935 10.4441 4.66056 10.591C4.7241 10.611 4.78993 10.6317 4.85741 10.6536C5.31694 10.803 5.93508 10.9777 6.25643 10.9847C6.54792 10.991 6.87325 10.8708 7.23244 10.6242C9.68383 8.96941 10.9492 8.13302 11.0287 8.11499C11.0847 8.10226 11.1624 8.08627 11.215 8.13304C11.2677 8.17982 11.2625 8.2684 11.2569 8.29216C11.2229 8.43701 9.87657 9.68872 9.17981 10.3365C8.96259 10.5384 8.80851 10.6817 8.77702 10.7144C8.70646 10.7877 8.63456 10.857 8.56545 10.9236C8.13854 11.3352 7.8184 11.6438 8.58317 12.1478C8.95067 12.3899 9.24475 12.5902 9.53814 12.79C9.85857 13.0082 10.1782 13.2259 10.5917 13.4969C10.697 13.566 10.7976 13.6377 10.8956 13.7076C11.2685 13.9734 11.6035 14.2122 12.0174 14.1741C12.2579 14.152 12.5063 13.9259 12.6325 13.2514C12.9306 11.6575 13.5167 8.204 13.6521 6.78089C13.664 6.65621 13.6491 6.49664 13.6371 6.42659C13.6251 6.35654 13.6 6.25674 13.509 6.18286C13.4012 6.09536 13.2347 6.07691 13.1602 6.07822C12.8217 6.08418 12.3024 6.26477 9.80298 7.30435Z" fill="#ABB8EB"/>
+              </svg>
+
+            Telegram
+          </a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="referral.html" class="mobile-menu__link mobile-link">
+
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_0_1564)">
+              <path d="M5.5571 4.5625C8.36085 4.5625 10.6335 6.85107 10.6335 9.67397C10.6335 12.4969 8.36068 14.7853 5.5571 14.7853C2.75352 14.7853 0.480469 12.4969 0.480469 9.67397C0.480469 6.85107 2.75334 4.5625 5.5571 4.5625ZM13.6641 4.86192C15.066 4.86192 16.2024 7.01613 16.2024 9.67397H16.2026C16.2026 12.3311 15.0662 14.486 13.6643 14.486C12.2624 14.486 11.126 12.3311 11.126 9.67397C11.126 7.01682 12.2622 4.86192 13.6641 4.86192ZM17.5877 5.36313C18.0807 5.36313 18.4805 7.29312 18.4805 9.67397C18.4805 12.0541 18.0808 13.9848 17.5877 13.9848C17.0946 13.9848 16.6952 12.0546 16.6952 9.67397C16.6952 7.2933 17.0948 5.36313 17.5877 5.36313Z" fill="#ABB8EB"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_0_1564">
+              <rect width="18" height="18" fill="white" transform="translate(0.480469 0.660156)"/>
+              </clipPath>
+              </defs>
+              </svg>
+
+            Medium
+          </a>
+        </li>
+        
+
+
+      </ul>
+
+    
+
+      <span class="mobile-menu__label">
+        <svg width="94" height="25">
+          <use href='img/sprite/sprite.svg#main-logo'></use>
+        </svg>
+      </span>
+  </div>
+
+  </div>
+
+</header>
+
+
+  <main style="opacity: 0;">
+    <section class="modal-section" data-tabs-parrent>
+      <div class="container">
+        <div class="modal-section__inner">
+          <div class="modal-main">
+            <div class="modal__box modal-main__box">
+              <ul class="modal-main__nav variable-mode">
+                <li class="modal-main__nav-item">
+                  <button class="modal-main__nav-btn active" data-tab="1">
+                    Swap
+                  </button>
+                </li>
+                <li class="modal-main__nav-item">
+                  <button class="modal-main__nav-btn" data-tab="2">
+                    Liquidity
+                  </button>
+                </li>
+                <li class="modal-main__nav-item">
+                  <button class="modal-main__nav-btn" data-tab="3">
+                    History
+                  </button>
+                </li>
+              </ul>
+
+              <ul class="modal-main__content">
+                <li class="modal-main__content-tab active" data-tab-content="1">
+                  <div class="modal-main__content-inner">
+                    <div class="modal__top modal-main__top">
+                      <button data-tab="settings" class="modal__title modal-main__title">
+                        <svg width='23' height='23'>
+                          <use href='img/sprite/sprite.svg#settings'></use>
+                        </svg>
+                        Swap
+                      </button>
+                    </div>
+                    <ul class="exchange-list">
+                      <li class="exchange-list__item">
+                        <span class="exchange-btn"></span>
+                        <div class="exchange-list__coll">
+                          <span class="exchange-list__value">
+                            You sell:
+                          </span>
+                          <button data-tab="token" class="exchange-list__button">
+                            <img width='30' height='30' src="/img/withdraw.svg" alt="image">
+                            FLS
+                            <svg width='24' height='24'>
+                              <use href='img/sprite/sprite.svg#arrow-bottom'></use>
+                            </svg>
+                          </button>
+                          <span class="exchange-list__value">
+                            FLS
+                          </span>
+                        </div>
+                        <div class="exchange-list__coll exchange-list__coll--mode">
+                          <span class="exchange-list__value">
+                            Balance: 110 000 <button class="modal-max">Max</button>
+                          </span>
+                          <span class="exchange-list__button">
+                            1000
+                          </span>
+                          <span class="exchange-list__value">
+                            ~2833.24
+                          </span>
+                        </div>
+                      </li>
+
+                      <li class="exchange-list__item">
+                        <div class="exchange-list__coll">
+                          <span class="exchange-list__value">
+                            You buy:
+                          </span>
+                          <button class="exchange-list__button" data-tab="token">
+                            <img width='30' height='30' src="/img/swap/img2.svg" alt="image">
+                            USDT
+                            <svg width='24' height='24'>
+                              <use href='img/sprite/sprite.svg#arrow-bottom'></use>
+                            </svg>
+                          </button>
+                          <span class="exchange-list__value">
+                            USDT
+                          </span>
+                        </div>
+                        <div class="exchange-list__coll exchange-list__coll--mode">
+                          <span class="exchange-list__value">
+                            Balance:0
+                          </span>
+                          <span class="exchange-list__button">
+                            631.043
+                          </span>
+                          <span class="exchange-list__value">
+                            ~2833.24
+                          </span>
+                        </div>
+                      </li>
+                    </ul>
+                    <button class="modal-swap__btn main-button" data-tab="swap">
+                      Insufiction FLS balance
+                      <svg width="24" height="24">
+                        <use href="img/sprite/sprite.svg#main-arrow"></use>
+                      </svg>
+                    </button>
+
+                    <ul class="receive-list">
+                      <li class="receive-list__item">
+                        <span class="receive-list__name">Fee Return:</span>
+                        <span class="receive-list__value">12.06737 BSW~ 2.53378 $</span>
+                      </li>
+                      <li class="receive-list__item">
+                        <span class="receive-list__name">Minimum received:</span>
+                        <span class="receive-list__value">132800 FLS</span>
+                      </li>
+                      <li class="receive-list__item">
+                        <span class="receive-list__name">Trade fee:</span>
+                        <span class="receive-list__value">
+                          <b class="green-text">0.54%</b>
+                        </span>
+                      </li>
+                      <li class="receive-list__item">
+                        <span class="receive-list__name">Price impact:</span>
+                        <span class="receive-list__value">0.2 BNB ~56.60925 $</span>
+                      </li>
+                      <li class="receive-list__item">
+                        <span class="receive-list__name">Fee Return:</span>
+                        <span class="receive-list__value">12.06737 FLS ~ 2.53378 $</span>
+                      </li>
+                    </ul>
+                    <ul class="route-list">
+                      <li class="route-list__item">
+                        <span class="route-list__title">Route:</span>
+                      </li>
+                      <li class="route-list__item">
+                        <div class="route-list__icon">
+                          <img src="/img/route/icon.svg" alt="logo">
+                        </div>
+                        <span class="route-list__name">BSW</span>
+                      </li>
+                      <li class="route-list__item">
+                        <div class="route-list__icon">
+                          <img src="/img/route/icon1.svg" alt="logo">
+                        </div>
+                        <span class="route-list__name">CAKE</span>
+                      </li>
+                      <li class="route-list__item">
+                        <div class="route-list__icon">
+                          <img src="/img/route/icon2.svg" alt="logo">
+                        </div>
+                        <span class="route-list__name">PCF</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                </li>
+                <li class="modal-main__content-tab" data-tab-content="2">
+                  <div class="modal-main__content-inner active" data-box="1">
+                    <span class="modal-main__content-text">
+                      Add liquidity to receive LP tokens
+                    </span>
+
+                    <button class="modal-swap__btn main-button" data-box-btn="1">
+                      Add Liquidity
+                      <svg width="24" height="24">
+                        <use href="img/sprite/sprite.svg#main-arrow"></use>
+                      </svg>
+                    </button>
+
+                    <span class="modal-main__pretitle">
+                      Your Liquidity
+                    </span>
+
+
+                    <div class="liquidity-box liquidity-box--acc" data-accordion-init>
+                      <button class="liquidity-box__acc-button" data-id="1">
+                        <h2 class="liquidity-box__title">
+                          <img width="40" height="24" src="img/modal-icon1.svg" alt="icon">
+                          BSW -USDT
+                        </h2>
+                        <svg width='24' height='24'>
+                          <use href='img/sprite/sprite.svg#arrow-bottom'></use>
+                        </svg>
+                      </button>
+                      <div class="liquidity-box__acc-wrapp panel" data-content="1">
+                        <ul class="receive-list">
+                          <li class="receive-list__item">
+                            <span class="receive-list__name">Pooled FLS</span>
+                            <span class="receive-list__value">23.7465</span>
+                          </li>
+                          <li class="receive-list__item">
+                            <span class="receive-list__name">Pooled USDT</span>
+                            <span class="receive-list__value">1000</span>
+                          </li>
+                          <li class="receive-list__item">
+                            <span class="receive-list__name">You pool tokens</span>
+                            <span class="receive-list__value">1000</span>
+                          </li>
+                          <li class="receive-list__item">
+                            <span class="receive-list__name">You pool share</span>
+                            <span class="receive-list__value">1.5635%</span>
+                          </li>
+                        </ul>
+
+                        <div class="liquidity-box__btns">
+                          <button class="main-button main-button--transparent" data-box-btn="3">
+                            Remove
+                          </button>
+                          <button class="main-button" data-box-btn="1">
+                            Add
+                          </button>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="liquidity-box">
+
+                      <ul class="valute-list">
+                        <li class="valute-list__item">
+                          <h2 class="valute-list__title">
+                            <img width="40" height="24" src="img/modal-icon1.svg" alt="icon">
+                            BSW -USDT
+                          </h2>
+                          <span class="valute-list__value valute-list__value--mode">0.0236578</span>
+                        </li>
+                        <li class="valute-list__item">
+                          <span class="valute-list__name">
+                            BSW
+                          </span>
+                          <span class="valute-list__value">10.0057</span>
+                        </li>
+                        <li class="valute-list__item">
+                          <span class="valute-list__name">
+                            BNB
+                          </span>
+                          <span class="valute-list__value">0.00716037</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="modal-main__content-inner" data-box="2">
+
+                    <button class="back-btn" data-box-btn="2">
+                      <svg width='24' height='24'>
+                        <use href='img/sprite/sprite.svg#arrow-l'></use>
+                      </svg>
+                    </button>
+                    <h3 class="modal-main__content-subtitle">Add liquidity</h3>
+                    <ul class="exchange-list">
+                      <li class="exchange-list__item">
+                        <div class="exchange-list__coll">
+                          <span class="exchange-list__value">
+                            You sell:
+                          </span>
+                          <button data-tab="token" class="exchange-list__button">
+                            <img width="30" height="30" src="img/route/icon.svg" alt="image">
+                            BSW
+                            <svg width='24' height='24'>
+                              <use href='img/sprite/sprite.svg#arrow-bottom'></use>
+                            </svg>
+                          </button>
+                        </div>
+                        <div class="exchange-list__coll exchange-list__coll--mode">
+                          <span class="exchange-list__value">
+                            Balance: 110 000 <button class="modal-max">Max</button>
+                          </span>
+                          <span class="exchange-list__button">
+                            1000
+                          </span>
+                        </div>
+                      </li>
+                      <li class="exchange-list__item exchange-list__item--mode">
+                        <button class="exchange-btn exchange-btn--mode" data-btn-modal="exchange"></button>
+                      </li>
+                      <li class="exchange-list__item">
+                        <div class="exchange-list__coll">
+                          <span class="exchange-list__value">
+                            You buy:
+                          </span>
+                          <button data-tab="token" class="exchange-list__button">
+                            <img width="30" height="30" src="/img/swap/img2.svg" alt="image">
+                            TETHER
+                            <svg width='24' height='24'>
+                              <use href='img/sprite/sprite.svg#arrow-bottom'></use>
+                            </svg>
+                          </button>
+                        </div>
+                        <div class="exchange-list__coll exchange-list__coll--mode">
+                          <span class="exchange-list__value">
+                            Balance: 110 000 <button class="modal-max">Max</button>
+                          </span>
+                          <span class="exchange-list__button">
+                            631.043
+                          </span>
+                        </div>
+                      </li>
+
+                      <li class="exchange-list__item exchange-list__item--row">
+                        <div class="exchange-list__item-coll">
+                          <span class="exchange-list__item-value">
+                            4.74439
+                          </span>
+                          <div class="exchange-list__item-name">
+                            BUSDT per BSW
+                          </div>
+                        </div>
+                        <div class="exchange-list__item-coll">
+                          <span class="exchange-list__item-value">
+                            4.74439
+                          </span>
+                          <div class="exchange-list__item-name">
+                            BSW per BUSDT
+                          </div>
+                        </div>
+                        <div class="exchange-list__item-coll">
+                          <span class="exchange-list__item-value">
+                            1.56
+                          </span>
+                          <div class="exchange-list__item-name">
+                            Share of Pol
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <button class="modal-swap__btn main-button" data-tab="receive">
+                      Add Liquidity
+                      <svg width="24" height="24">
+                        <use href="img/sprite/sprite.svg#main-arrow"></use>
+                      </svg>
+                    </button>
+
+                    <ul class="valute-list">
+                      <li class="valute-list__item">
+                        <h2 class="valute-list__title">
+                          <img width="40" height="24" src="img/modal-icon1.svg" alt="icon">
+                          BSW -USDT
+                        </h2>
+                        <span class="valute-list__value valute-list__value--mode">0.0236578</span>
+                      </li>
+                      <li class="valute-list__item">
+                        <span class="valute-list__name">
+                          BSW
+                        </span>
+                        <span class="valute-list__value">10.0057</span>
+                      </li>
+                      <li class="valute-list__item">
+                        <span class="valute-list__name">
+                          BNB
+                        </span>
+                        <span class="valute-list__value">0.00716037</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="modal-main__content-inner modal-main__content-inner--mode" data-box="3">
+
+                    <button class="back-btn" data-box-btn="2">
+                      <svg width='24' height='24'>
+                        <use href='img/sprite/sprite.svg#arrow-l'></use>
+                      </svg>
+                    </button>
+
+                    <div class="modal-main__wrapper">
+                      <h3 class="modal-main__content-subtitle modal-main__content-subtitle--mode">Remove Liqudity</h3>
+
+
+                      <div class="custom-range">
+                        <span class="custom-range__counter">0%</span>
+                        <div class="custom-range__wrapper">
+                          <ul class="custom-range__wrapper-point">
+                            <li class="active"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                          <input class="custom-range__range" type="range" min="0" max="100" value="0" step="1" style="background-size: 0% 150%;">
+
+                        </div>
+
+                       </div>
+
+                    </div>
+
+                    <div class="modal-main__container">
+                      <ul class="liqudity-list">
+                        <li class="liqudity-list__item">
+                          <button class="liqudity-list__btn"></button>
+                          <span class="liqudity-list__name">1000</span>
+                          <span class="liqudity-list__value">
+                            <img src="/img/swap/img2.svg" alt="logo" width="24" height="24">
+                            USDT
+                          </span>
+                        </li>
+                        <li class="liqudity-list__item">
+                          <span class="liqudity-list__name">1000</span>
+                          <span class="liqudity-list__value">
+                            <img src="/img/withdraw.svg" alt="logo" width="24" height="24">
+                            FLS
+                          </span>
+                        </li>
+                        <li class="liqudity-list__item">
+                          <a href="#" class="liqudity-list__link">Receive WBNB</a>
+                        </li>
+                      </ul>
+
+                      <div class="modal-main__price">
+                        <span class="modal-main__price-name">Price:</span>
+                        <p>
+                          <span class="modal-main__price-value">1 USDT - 10.0057</span>
+                          <span class="modal-main__price-value">1 FLS - 0.000057</span>
+                        </p>
+                      </div>
+
+                      <div class="liquidity-box__btns">
+                        <button class="main-button" data-btn-inner="exchange">
+                          Approve
+                        </button>
+                        <button class="main-button  main-button--red" data-btn-hidden>
+                          Remove
+                        </button>
+                      </div>
+                    </div>
+
+                    <ul class="valute-list">
+                      <li class="valute-list__item">
+                        <h2 class="valute-list__title">
+                          <img width="40" height="24" src="img/modal-icon1.svg" alt="icon">
+                          BSW -USDT
+                        </h2>
+                        <span class="valute-list__value valute-list__value--mode">0.0236578</span>
+                      </li>
+                      <li class="valute-list__item">
+                        <span class="valute-list__name">
+                          BSW
+                        </span>
+                        <span class="valute-list__value">10.0057</span>
+                      </li>
+                      <li class="valute-list__item">
+                        <span class="valute-list__name">
+                          BNB
+                        </span>
+                        <span class="valute-list__value">0.00716037</span>
+                      </li>
+                    </ul>
+
+                  </div>
+                </li>
+                <li class="modal-main__content-tab " data-tab-content="3">
+                  <div class="modal-main__content-inner">
+                    <span class="modal-main__pretitle">
+                      History
+                    </span>
+
+                    <ul class="receive-list receive-list--mode">
+                      <li class="receive-list__item">
+                        <a href="#" class="receive-list__name">Swap 5 BUSD for 23.7 BSW</a>
+                        <span class="receive-list__value">Complete</span>
+                      </li>
+                      <li class="receive-list__item">
+                        <a href="#" class="receive-list__name">Aproved 5 BUSDT</a>
+                        <span class="receive-list__value receive-list__value--blue">In progress</span>
+                      </li>
+                    </ul>
+
+                    <div class="receive-list receive-list--none">
+                      <div class="none-box">
+                        <svg width='25' height='25'>
+                          <use href='img/sprite/sprite.svg#none'></use>
+                        </svg>
+                        No data yet
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="modal modal-swap" data-tab-content="swap">
+            <div class="modal__box modal-swap__box" role="dialog" aria-modal="true">
+              <h2 class="inner-modal__title">
+                Confirm Swap
+                <button class="close" data-tab="1">
+                  <svg width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#arrow-l'></use>
+                  </svg>
+                </button>
+              </h2>
+
+              <div class="modal-swap__middle">
+                <ul class="modal-swap__list">
+                  <li class="modal-swap__item">
+                    <button class="exchange-btn" data-btn-modal="sumbit"></button>
+                    <span class="modal-swap__name">
+                      <img width="30" height="30" src="/img/withdraw.svg" alt="image">
+                      18.1435</span>
+                    <span class="modal-swap__name">FSL</span>
+                  </li>
+                  <li class="modal-swap__item">
+                    <span class="modal-swap__name">
+                      <img width="30" height="30" src="/img/swap/img2.svg" alt="image">
+                      4.403</span>
+                    <span class="modal-swap__name">USDT</span>
+                  </li>
+                </ul>
+                <div class="modal-swap__update">
+                  <span class="modal-swap__price">
+                    <svg width='28' height='26'>
+                      <use href='img/sprite/sprite.svg#alert'></use>
+                    </svg>
+                    Price updated
+                  </span>
+                  <button class="modal-swap__accept">Accept</button>
+                </div>
+                <p>Stake your LP tokens and earn FLS tokens in return</p>
+              </div>
+
+              <div class="modal-swap__content">
+                <ul class="receive-list">
+                  <li class="receive-list__item">
+                    <span class="receive-list__name">Price:</span>
+                    <span class="receive-list__value">12.06737 BSW~ 2.53378 $</span>
+                  </li>
+                  <li class="receive-list__item">
+                    <span class="receive-list__name">Minimum received:</span>
+                    <span class="receive-list__value">132800 FLS</span>
+                  </li>
+                  <li class="receive-list__item">
+                    <span class="receive-list__name">Trade fee:</span>
+                    <span class="receive-list__value">
+                      <b class="green-text">0.54%</b>
+                    </span>
+                  </li>
+                  <li class="receive-list__item">
+                    <span class="receive-list__name">Price impact:</span>
+                    <span class="receive-list__value">0.2 BNB ~56.60925 $</span>
+                  </li>
+                </ul>
+                <button class="modal-swap__btn main-button" data-btn-inner="wait">
+                  Confirm Swap
+                  <svg width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#main-arrow'></use>
+                  </svg>
+                </button>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="modal inner-modal" data-tab-content="settings">
+            <div class="modal__box inner-modal__box" role="dialog" aria-modal="true">
+
+              <h2 class="inner-modal__title">
+                Settings
+                <button class="close" data-tab="1">
+                  <svg width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#arrow-l'></use>
+                  </svg>
+                </button>
+              </h2>
+
+              <ul class="inner-modal__list">
+                <li class="inner-modal__list-item">
+                  <span class="inner-modal__list-title">
+                    Default Transaction Speed (GWEI)
+                  </span>
+
+                  <div class="inner-modal__list-wrapper">
+                    <label class="custom-radio">
+                      <input type="radio" class="custom-radio__field" name="speed" checked>
+                      <span class="custom-radio__content">Standart (5)</span>
+                    </label>
+                    <label class="custom-radio">
+                      <input type="radio" class="custom-radio__field" name="speed">
+                      <span class="custom-radio__content">Fast (6)</span>
+                    </label>
+                    <label class="custom-radio">
+                      <input type="radio" class="custom-radio__field" name="speed">
+                      <span class="custom-radio__content">Instant (7)</span>
+                    </label>
+                  </div>
+                </li>
+
+                <li class="inner-modal__list-item">
+                  <span class="inner-modal__list-title">
+                    Slippage tolerance
+                  </span>
+
+                  <div class="inner-modal__list-wrapper inner-modal__list-wrapper--mode">
+                    <label class="custom-radio">
+                      <input type="radio" class="custom-radio__field" name="percent">
+                      <span class="custom-radio__content">0.1%</span>
+                    </label>
+                    <label class="custom-radio">
+                      <input type="radio" class="custom-radio__field" name="percent">
+                      <span class="custom-radio__content">0.5%</span>
+                    </label>
+                    <label class="custom-radio">
+                      <input type="radio" class="custom-radio__field" name="percent">
+                      <span class="custom-radio__content">1%</span>
+                    </label>
+
+                    <label class="inner-modal__label">
+                      <input type="number" class="inner-modal__input" value="0.8" name="percent">
+                      <span class="inner-modal__value">%</span>
+                    </label>
+                  </div>
+                </li>
+
+                <li class="inner-modal__list-item">
+                  <span class="inner-modal__list-title">
+                    Transaction deadline
+                  </span>
+
+                  <div class="inner-modal__list-inner">
+                    <label class="inner-modal__label">
+                      <input type="number" class="inner-modal__input" value="20" name="percent">
+                      <span class="inner-modal__value">Minutes</span>
+                    </label>
+
+                    <label class="switch switch--dark">
+                      <input type="checkbox">
+                      <span class="switch__slider switch__slider--round"></span>
+                    </label>
+                  </div>
+
+                </li>
+              </ul>
+
+              <button class="modal-swap__btn main-button">
+                Save Changes
+                <svg width="24" height="24">
+                  <use href="img/sprite/sprite.svg#main-arrow"></use>
+                </svg>
+              </button>
+
+            </div>
+          </div>
+
+          <div class="modal modal-receive" data-tab-content="receive">
+            <div class="modal__box modal-receive__box" role="dialog" aria-modal="true">
+              <h2 class="inner-modal__title">
+                You will receive
+                <button class="close" data-tab="2">
+                  <svg width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#arrow-l'></use>
+                  </svg>
+                </button>
+              </h2>
+
+
+              <div class="modal-receive__middle">
+                <span class="modal-receive__pretitle">9.59112
+                  <img src="/img/sprite/receive1.svg" alt="image">
+                </span>
+                <span class="modal-receive__token">BSW/USDT Pool Tokens</span>
+                <p>Stake your LP tokens and earn BSW tokens in return</p>
+              </div>
+
+              <div class="modal-receive__content">
+                <ul class="receive-list">
+                  <li class="receive-list__item">
+                    <span class="receive-list__name">BSW Deposited</span>
+                    <span class="receive-list__value">5 000 BSW</span>
+                  </li>
+                  <li class="receive-list__item">
+                    <span class="receive-list__name">USDT Deposited</span>
+                    <span class="receive-list__value">2000 USDT</span>
+                  </li>
+                  <li class="receive-list__item">
+                    <span class="receive-list__name">Rates</span>
+                    <span class="receive-list__value">
+                      <b class="green-text">1 BSW - 10 USDT,</b>
+                      <b class="green-text"> 1 USDT - 10 BSW</b>
+                    </span>
+                  </li>
+                  <li class="receive-list__item">
+                    <span class="receive-list__name">Share of Pool</span>
+                    <span class="receive-list__value">1.563%</span>
+                  </li>
+                </ul>
+                <button class="modal-receive__btn">
+                  Confirm Supply
+                  <svg width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#main-arrow'></use>
+                  </svg>
+                </button>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="modal inner-modal" data-tab-content="token">
+            <div class="modal__box inner-modal__box" role="dialog" aria-modal="true">
+              <h2 class="inner-modal__title">
+                Selec a token
+                <button class="close" data-tab="1">
+                  <svg width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#arrow-l'></use>
+                  </svg>
+                </button>
+              </h2>
+
+              <ul class="inner-modal__list">
+                <li class="inner-modal__list-item">
+                  <form action="#" class="search-form">
+                    <label for="#" class="search-form__label">
+                      <button class="search-form__btn">
+                        <svg width='24' height='24'>
+                          <use href='img/sprite/sprite.svg#search'></use>
+                        </svg>
+                      </button>
+                      <input type="text" class="search-form__input" placeholder="Search by name or paste address">
+                    </label>
+                  </form>
+
+                  <ul class="token-list">
+                    <li class="token-list__item">
+                      <button class="token-list__btn">
+                        <img width="24" height="24" src="img/token/icon.svg" alt="icon">
+                        BNB
+                      </button>
+                    </li>
+                    <li class="token-list__item">
+                      <button class="token-list__btn">
+                        <img width="24" height="24" src="img/token/icon2.svg" alt="icon">
+                        USDT
+                      </button>
+                    </li>
+                    <li class="token-list__item">
+                      <button class="token-list__btn">
+                        <img width="24" height="24" src="img/token/icon3.svg" alt="icon">
+                        BSW
+                      </button>
+                    </li>
+                    <li class="token-list__item">
+                      <button class="token-list__btn">
+                        <img width="24" height="24" src="img/token/icon4.svg" alt="icon">
+                        TRX
+                      </button>
+                    </li>
+                    <li class="token-list__item">
+                      <button class="token-list__btn">
+                        <img width="24" height="24" src="img/token/icon.svg" alt="icon">
+                        BNB
+                      </button>
+                    </li>
+                    <li class="token-list__item">
+                      <button class="token-list__btn">
+                        <img width="24" height="24" src="img/token/icon2.svg" alt="icon">
+                        USDT
+                      </button>
+                    </li>
+                    <li class="token-list__item">
+                      <button class="token-list__btn">
+                        <img width="24" height="24" src="img/token/icon3.svg" alt="icon">
+                        BSW
+                      </button>
+                    </li>
+                    <li class="token-list__item">
+                      <button class="token-list__btn">
+                        <img width="24" height="24" src="img/token/icon4.svg" alt="icon">
+                        TRX
+                      </button>
+                    </li>
+                  </ul>
+
+                </li>
+
+                <li class="inner-modal__list-item">
+                  <ul class="coin-list">
+                    <li class="coin-list__item">
+                      <button class="coin-list__btn">
+                        <img width="35" height="35" src="img/token/icon5.svg" alt="icon">
+                        Tether
+                      </button>
+                      <span class="coin-list__value">
+                        10 998,00
+                      </span>
+                    </li>
+                    <li class="coin-list__item">
+                      <button class="coin-list__btn">
+                        <img width="35" height="35" src="img/token/icon6.svg" alt="icon">
+                        ETH
+                      </button>
+                      <span class="coin-list__value">
+                        0
+                      </span>
+                    </li>
+                    <li class="coin-list__item">
+                      <button class="coin-list__btn">
+                        <img width="35" height="35" src="img/token/icon7.svg" alt="icon">
+                        CAKE
+                      </button>
+                      <span class="coin-list__value">
+                        0
+                      </span>
+                    </li>
+                    <li class="coin-list__item">
+                      <button class="coin-list__btn">
+                        <img width="35" height="35" src="img/token/icon4.svg" alt="icon">
+                        TRX
+                      </button>
+                      <span class="coin-list__value">
+                        0
+                      </span>
+                    </li>
+                    <li class="coin-list__item">
+                      <button class="coin-list__btn">
+                        <img width="35" height="35" src="img/token/icon.svg" alt="icon">
+                        BTC
+                      </button>
+                      <span class="coin-list__value">
+                        0
+                      </span>
+                    </li>
+                    <li class="coin-list__item">
+                      <button class="coin-list__btn">
+                        <img width="35" height="35" src="img/token/icon4.svg" alt="icon">
+                        TRX
+                      </button>
+                      <span class="coin-list__value">
+                        0
+                      </span>
+                    </li>
+                    <li class="coin-list__item">
+                      <button class="coin-list__btn">
+                        <img width="35" height="35" src="img/token/icon.svg" alt="icon">
+                        BTC
+                      </button>
+                      <span class="coin-list__value">
+                        0
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <div class="hidden-wrapper">
+    <div class="modal-status modal-status--swap">
+      <div class="modal__box modal-status__box" role="dialog" aria-modal="true">
+        <button class="close modal-status__close" aria-label="Закрыть модальное окно">
+          <svg width='16' height='16'>
+            <use href='img/sprite/sprite.svg#closeMode'></use>
+          </svg>
+        </button>
+
+        <div class="modal-status__img">
+          <svg width='30' height='30'>
+            <use href='img/sprite/sprite.svg#confirm'></use>
+          </svg>
+        </div>
+        <div class="modal-status__wrapper">
+          <div class="modal-status__inner">
+            <h2 class="modal__title modal-status__title">Swap 0.00078 BNB for 10 BSW</h2>
+            <a class="modal-status__link" href="#">View on BscScan</a>
+          </div>
+          <p>Share your swap on Twitter and earn up to 20% FLS via Multi-type Referral Program!</p>
+          <button class="modal-status__btn">Share
+            <img src="/img/boxMode.png" width="50" height="50" alt="logo">
+          </button>
+        </div>
+        <div class="modal-status__bottom">
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-status modal-status--approve">
+      <div class="modal__box modal-status__box" role="dialog" aria-modal="true">
+        <button class="close modal-status__close" aria-label="Закрыть модальное окно">
+          <svg width='16' height='16'>
+            <use href='img/sprite/sprite.svg#closeMode'></use>
+          </svg>
+        </button>
+
+        <div class="modal-status__img">
+          <svg width='30' height='30'>
+            <use href='img/sprite/sprite.svg#confirm'></use>
+          </svg>
+        </div>
+        <div class="modal-status__inner modal-status__inner--mode">
+          <h2 class="modal__title modal-status__title">Approve!</h2>
+          <a class="modal-status__link" href="#">View on BscScan</a>
+        </div>
+        <div class="modal-status__bottom">
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-status modal-status--error">
+      <div class="modal__box modal-status__box" role="dialog" aria-modal="true">
+        <button class="close modal-status__close" aria-label="Закрыть модальное окно">
+          <svg width='16' height='16'>
+            <use href='img/sprite/sprite.svg#closeMode'></use>
+          </svg>
+        </button>
+
+        <div class="modal-status__img modal-status__img--error">
+          <svg width='39' height='39'>
+            <use href='img/sprite/sprite.svg#error'></use>
+          </svg>
+        </div>
+        <div class="modal-status__inner modal-status__inner--mode">
+          <h2 class="modal__title modal-status__title">Error!</h2>
+        </div>
+        <div class="modal-status__bottom modal-status__bottom--error">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay fixed-block" data-overlay>
+  <div class="modal modal-connect" data-popup="connect">
+    <div class="modal__box modal-connect__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-connect__top">
+        <h2 class="modal__title modal-connect__title">
+          Connect to wallet
+        </h2>
+        <p>By connecting a wallet, you agree to Fixswap's <a href="#" class="transparent-text">Terms of Use</a></p>
+      </div>
+
+      <ul class="connect-list">
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img1.svg" alt="image" width="30" height="30">
+            Metamask
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img2.svg" alt="image" width="30" height="30">
+            TrustWallet
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img3.svg" alt="image" width="30" height="30">
+            WalletConnect
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img4.svg" alt="image" width="30" height="30">
+            Brave Wallet
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img5.svg" alt="image" width="30" height="30">
+            TokenPocket
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img6.svg" alt="image" width="30" height="30">
+            MathWallet
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img7.svg" alt="image" width="30" height="30">
+            Coin98
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img8.svg" alt="image" width="30" height="30">
+            Binance Chain
+          </button>
+        </li>
+        <li class="connect-list__item">
+          <button class="connect-list__btn" data-btn-modal="back">
+            <img src="/img/connect/img9.svg" alt="image" width="30" height="30">
+            Coinbase Wallet
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal modal-wallet" data-popup="wallet">
+    <div class="modal__box modal-wallet__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-wallet__top">
+        <h2 class="modal__title modal-wallet__title">
+          You wallet
+        </h2>
+      </div>
+
+      <div class="modal-wallet__inner">
+        <span class="modal-wallet__result">
+          <b class="green-text">Connected</b></span>
+        <span class="modal-wallet__value">0x04cc33A71667fB92F25b14ca8bD21aA1907BB233</span>
+        <div class="modal-wallet__content">
+          <a href="#" class="vertical-card__acc-link">
+            Copy adress
+            <svg width="17" height="17">
+              <use href="img/sprite/sprite.svg#arrow-link"></use>
+            </svg>
+          </a>
+          <a href="#" class="vertical-card__acc-link">
+            View on BscScan
+            <svg width="17" height="17">
+              <use href="img/sprite/sprite.svg#arrow-link"></use>
+            </svg>
+          </a>
+        </div>
+
+
+      </div>
+
+      <button class="modal-wallet__btn">
+        Logout
+        <svg width='24' height='24'>
+          <use href='img/sprite/sprite.svg#main-arrow'></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="modal modal-farming" data-popup="farming">
+    <div class="modal__box modal-farming__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-farming__top">
+        <h2 class="modal__title modal-farming__title">
+          Unstake LP Tokens
+        </h2>
+      </div>
+
+      <div class="modal-farming__inner">
+        <ul class="modal-farming__list">
+          <li class="modal-farming__item">
+            <span class="modal-farming__name">Unstake</span>
+            <span class="modal-farming__name">Balance:0.255894545</span>
+          </li>
+          <li class="modal-farming__item">
+            <span class="modal-farming__value">0</span>
+            <span class="modal-farming__name">BNB-BUSDT
+              <button class="modal-farming__max">Max</button>
+            </span>
+          </li>
+        </ul>
+
+        <div class="modal-farming__content">
+          <button class="modal-farming__btn--mode modal-farming__btn">Cancel</button>
+          <button class="modal-farming__btn">
+            Confirm
+            <svg width='24' height='24'>
+              <use href='img/sprite/sprite.svg#main-arrow'></use>
+            </svg>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-roi" data-popup="roi">
+    <div class="modal__box modal-roi__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-roi__top">
+        <h2 class="modal__title modal-roi__title">
+          ROI
+        </h2>
+        <p>Calculated based on current rates. Rates are estimates provided for your convenience only, and by no means
+          represent guaranteed returns.</p>
+      </div>
+
+      <div class="modal-roi__inner">
+        <ul class="modal-roi__list">
+          <li class="modal-roi__item--thead modal-roi__item">
+            <span class="modal-roi__name">Timeframe</span>
+            <span class="modal-roi__name">ROI</span>
+            <span class="modal-roi__name">FLS per $ 1000</span>
+          </li>
+          <li class="modal-roi__item--mode modal-roi__item">
+            <span class="modal-roi__value">1d</span>
+            <span class="modal-roi__value">0,07%</span>
+            <span class="modal-roi__value">3.21</span>
+          </li>
+          <li class="modal-roi__item">
+            <span class="modal-roi__value">7d</span>
+            <span class="modal-roi__value">0,07%</span>
+            <span class="modal-roi__value">3.21</span>
+          </li>
+          <li class="modal-roi__item--mode modal-roi__item">
+            <span class="modal-roi__value">30d</span>
+            <span class="modal-roi__value">0,07%</span>
+            <span class="modal-roi__value">3.21</span>
+          </li>
+          <li class="modal-roi__item">
+            <span class="modal-roi__value">365d</span>
+            <span class="modal-roi__value">0,07%</span>
+            <span class="modal-roi__value">3.21</span>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-back" data-popup="back">
+    <div class="modal__box modal-back__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-back__top">
+        <button class="modal-back__btn" data-btn-inner="connect">
+          <svg width='16' height='11'>
+            <use href='img/sprite/sprite.svg#arrow-back'></use>
+          </svg>
+        </button>
+        <h2 class="modal__title modal-back__title">
+          Back to wallets
+        </h2>
+      </div>
+
+      <div class="modal-back__inner">
+          <div class="modal-back__img">
+            <img src="/img/sprite/open.svg" alt="logo">
+          </div>
+          <span class="modal-back__subtitle">Opening Metamask</span>
+          <p>Please confirm in Metamask</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-welcome" data-popup="welcome">
+    <div class="modal__box modal-welcome__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+      <div class="modal-welcome__top">
+        <div class="modal-welcome__img modal-welcome__img--mode">
+          <img src="/img/community/coin2.png" alt="logo">
+        </div>
+        <div class="modal-welcome__img modal-welcome__img--middle">
+          <img src="/img/sprite/wait.svg" alt="logo">
+        </div>
+        <div class="modal-welcome__img modal-welcome__img--coin">
+          <img src="/img/community/coin1.png" alt="logo">
+        </div>
+      </div>
+
+      <div class="modal-welcome__middle">
+        <h2 class="modal__title modal-welcome__title">
+          Welcome to Flixswap!
+        </h2>
+        <p>Decentralized finance (DeFi) projects aim to create a financial system that operates on a decentralized, open-source, and permissionless blockchain network. DeFi protocols offer a range of financial services, including borrowing and lending, trading, asset management, insurance, and more</p>
+      </div>
+      <div class="modal-welcome__inner">
+          <span class="modal-welcome__subtitle">Our community:</span>
+          <ul class="modal-welcome__list">
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/telegram.svg" alt="telegram">
+              </a>
+            </li>
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/youtube.svg" alt="youtube">
+              </a>
+            </li>
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/img.svg" alt="youtube">
+              </a>
+            </li>
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li class="modal-welcome__item">
+              <a class="modal-welcome__link" href="#">
+                <img src="/img/community/instagram.svg" alt="instagram">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-offers" data-popup="offers">
+    <div class="modal__box modal-offers__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+      <div class="modal__top modal-offers__top">
+        <h2 class="modal__title modal-offers__title">
+          <img width="30" height="30" src="/img/sprite/fire1.svg" alt="logo">
+          Hot offers
+        </h2>
+        <p>Stake LP tokens to Earn more tokens!</p>
+      </div>
+      <div class="modal-offers__inner">
+        <div class="modal-offers__wrapper">
+          <span class="modal-offers__subtitle">Hot Pairs:</span>
+          <ul class="pairs-list">
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon3.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon5.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon4.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon3.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-offers__wrapper">
+          <span class="modal-offers__subtitle">Top Pairs:</span>
+          <ul class="pairs-list">
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon3.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon5.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon4.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+            <li class="pairs-list__item">
+              <div class="pairs-list__box">
+                <div class="pairs-list__icon">
+                  <img width='30' height='30' src="img/valute/icon.svg" alt="icon">
+                </div>
+                <div class="pairs-list__icon pairs-list__icon--mode">
+                  <img width='30' height='30' src="img/valute/icon3.svg" alt="icon">
+                </div>
+                <span class="pairs-list__valute">TWT-BNB</span>
+              </div>
+              <div class="pairs-list__inner">
+                  <span class="pairs-list__value">APY <span class="yellow-text">30.95%</span></span>
+                  <button class="pairs-list__btn">Stake</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-calc" data-popup="calc">
+    <div class="modal__box modal-calc__box" role="dialog" aria-modal="true">
+      <button class="close modal-calc__close" aria-label="Закрыть модальное окно">
+        <svg width='24' height='24'>
+          <use href='img/sprite/sprite.svg#arrow-l'></use>
+        </svg>
+      </button>
+        <h2 class="modal__title modal-calc__title">ROI Calculator</h2>
+      <div class="modal-calc__top">
+          <div class="modal-calc__coll">
+            <span class="modal-calc__value">
+              BSW Staked
+            </span>
+            <button data-btn-inner="token" class="modal-calc__button">
+              <img width='28' height='28' src="/img/token/icon3.svg" alt="image">
+              BSW
+              <svg width='24' height='24'>
+                <use href='img/sprite/sprite.svg#arrow-bottom'></use>
+              </svg>
+            </button>
+            <span class="modal-calc__value">
+              BSW
+            </span>
+          </div>
+          <div class="modal-calc__coll modal-calc__coll--mode">
+            <span class="modal-calc__value">
+              Balance: 110 000 <button class="modal-max">Max</button>
+            </span>
+            <span class="modal-calc__button">
+              1000
+            </span>
+            <span class="modal-calc__value">
+              ~2833.24
+            </span>
+          </div>
+
+      </div>
+      <div class="modal-calc__middle">
+        <span class="modal-calc__value">
+          Staked for:
+        </span>
+        <ul class="staked-list">
+          <li class="staked-list__item active">
+            <a href="#" class="staked-list__value">1D</a>
+          </li>
+          <li class="staked-list__item">
+            <a href="#" class="staked-list__value">2D</a>
+          </li>
+          <li class="staked-list__item">
+            <a href="#" class="staked-list__value">30D</a>
+          </li>
+          <li class="staked-list__item">
+            <a href="#" class="staked-list__value">1Y</a>
+          </li>
+          <li class="staked-list__item">
+            <a href="#" class="staked-list__value">5Y</a>
+          </li>
+        </ul>
+      </div>
+      <div class="modal-calc__bottom">
+        <div class="modal-calc__wrapper">
+          <span class="modal-calc__value">
+            Staked for:
+          </span>
+          <span class="modal-calc__button">$ 2196.21</span>
+          <span class="modal-calc__value">
+            ~ 543.064 CAKE (22.16%)
+          </span>
+        </div>
+        <div class="modal-calc__percent">
+          <svg width="25" height="25">
+            <use href='img/sprite/sprite.svg#calc'></use>
+          </svg>
+          <span class="modal-calc__button">APR: <span class="green-text">31.11%</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal inner-modal" data-popup="token">
+    <div class="modal__box inner-modal__box" role="dialog" aria-modal="true">
+      <h2 class="inner-modal__title">
+        Selec a token
+        <button class="close">
+          <svg width='24' height='24'>
+            <use href='img/sprite/sprite.svg#arrow-l'></use>
+          </svg>
+        </button>
+      </h2>
+
+      <ul class="inner-modal__list">
+        <li class="inner-modal__list-item">
+          <form action="#" class="search-form">
+            <label for="#" class="search-form__label">
+              <button class="search-form__btn">
+                <svg width='24' height='24'>
+                  <use href='img/sprite/sprite.svg#search'></use>
+                </svg>
+              </button>
+              <input type="text" class="search-form__input" placeholder="Search by name or paste address">
+            </label>
+          </form>
+
+          <ul class="token-list">
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon.svg" alt="icon">
+                BNB
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon2.svg" alt="icon">
+                USDT
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon3.svg" alt="icon">
+                BSW
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon4.svg" alt="icon">
+                TRX
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon.svg" alt="icon">
+                BNB
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon2.svg" alt="icon">
+                USDT
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon3.svg" alt="icon">
+                BSW
+              </button>
+            </li>
+            <li class="token-list__item">
+              <button class="token-list__btn">
+                <img width="24" height="24" src="img/token/icon4.svg" alt="icon">
+                TRX
+              </button>
+            </li>
+          </ul>
+
+        </li>
+
+        <li class="inner-modal__list-item">
+          <ul class="coin-list">
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon5.svg" alt="icon">
+                Tether
+              </button>
+              <span class="coin-list__value">
+                10 998,00
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon6.svg" alt="icon">
+                ETH
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon7.svg" alt="icon">
+                CAKE
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon4.svg" alt="icon">
+                TRX
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon.svg" alt="icon">
+                BTC
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon4.svg" alt="icon">
+                TRX
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+            <li class="coin-list__item">
+              <button class="coin-list__btn">
+                <img width="35" height="35" src="img/token/icon.svg" alt="icon">
+                BTC
+              </button>
+              <span class="coin-list__value">
+                0
+              </span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal modal-alert" data-popup="alert">
+    <div class="modal__box modal-alert__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-alert__top">
+        <button class="modal-alert__btn" data-btn-inner="connect">
+          <svg width="16" height="11">
+            <use href='img/sprite/sprite.svg#arrow-back'></use>
+          </svg>
+        </button>
+        <h2 class="modal__title modal-alert__title">
+          Back to wallets
+        </h2>
+      </div>
+
+      <div class="modal-alert__inner">
+          <div class="modal-alert__img">
+            <img src="/img/sprite/alert.svg" alt="logo" width="94" height="94">
+          </div>
+          <span class="modal-alert__subtitle">Your wallets is not connected</span>
+          <p>Please try connecting your wallet again</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-error" data-popup="error">
+    <div class="modal__box modal-error__box" role="dialog" aria-modal="true">
+      <div class="modal__top modal-error__top">
+        <h2 class="modal__title modal-error__title">
+          Transaction submitted
+        </h2>
+      </div>
+
+      <div class="modal-error__inner">
+          <div class="modal-error__img">
+            <img src="/img/sprite/error.svg" alt="logo" width="138" height="138">
+          </div>
+          <p>Swap failed</p>
+          <button class="modal-error__btn close">Dismiss</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-wait" data-popup="wait">
+    <div class="modal__box modal-wait__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-wait__top">
+        <h2 class="modal__title modal-wait__title">
+          Waiting for confirmation
+        </h2>
+      </div>
+      <div class="modal-wait__img">
+        <!-- <img src="/img/sprite/wait.svg" alt="logo"> -->
+      </div>
+      <div class="modal-wait__inner">
+        <span class="modal-wait__subtitle">
+          Your wallets is not connected
+        </span>
+        <p>Please try connecting your wallet again</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-submit" data-popup="sumbit">
+    <div class="modal__box modal-submit__box" role="dialog" aria-modal="true">
+      <button class="close modal__close" aria-label="Закрыть модальное окно">
+        <svg width='21' height='21'>
+          <use href='img/sprite/sprite.svg#close'></use>
+        </svg>
+      </button>
+
+      <div class="modal__top modal-submit__top">
+        <h2 class="modal__title modal-submit__title">
+          Transaction submitted
+        </h2>
+      </div>
+
+      <div class="modal-submit__inner">
+        <div class="modal-submit__img">
+          <svg width='120' height='120'>
+            <use href='img/sprite/sprite.svg#confirm'></use>
+          </svg>
+        </div>
+        <a class="modal-submit__link" href="#">View on BscScan</a>
+        <button class="modal-submit__btn close mode">Close</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal modal-exchange" data-popup="exchange">
+    <div class="modal__box modal-exchange__box" role="dialog" aria-modal="true">
+      <h2 class="inner-modal__title">
+        You will receive
+        <button class="close">
+          <svg width='24' height='24'>
+            <use href='img/sprite/sprite.svg#arrow-l'></use>
+          </svg>
+        </button>
+      </h2>
+
+      <div class="modal-exchange__middle">
+        <div class="modal-exchange__wrapper">
+          <ul class="modal-exchange__list">
+            <li class="modal-exchange__item">
+              <button class="exchange-btn"></button>
+              <span class="modal-exchange__name">
+                <img width="28" height="28" src="/img/route/icon.svg" alt="image">
+                18.1435</span>
+              <span class="modal-exchange__name">BSW</span>
+            </li>
+            <li class="modal-exchange__item">
+              <span class="modal-exchange__name">
+                <img width="28" height="28" src="/img/swap/img2.svg" alt="image">
+                4.403</span>
+              <span class="modal-exchange__name">USDT</span>
+            </li>
+          </ul>
+          <p>Stake your LP tokens and earn BSW tokens in return</p>
+
+          <button class="modal-exchange__btn">
+            Confirm
+            <svg width="24" height="24">
+              <use href="img/sprite/sprite.svg#main-arrow"></use>
+            </svg>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+</body>
+
+
+
+<script src="js/main.js"></script>
+
+</html>
