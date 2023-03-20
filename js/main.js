@@ -8785,7 +8785,7 @@ if (document.querySelector('[data-btn-inner="wait"]')) {
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      path: `../lottie/wait.json`
+      path: `Defi/lottie/wait.json`
     });
   });
 }
@@ -8795,7 +8795,7 @@ if (preloadBox) {
     renderer: 'svg',
     loop: false,
     autoplay: true,
-    path: `../lottie/main.json`
+    path: `Defi/lottie/main.json`
   });
 }
 
