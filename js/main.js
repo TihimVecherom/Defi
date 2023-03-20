@@ -69668,7 +69668,7 @@ __webpack_require__.r(__webpack_exports__);
 let onSlide = false;
 
 window.addEventListener("load", () => {
-   autoSlide();
+   
 
    const dots = document.querySelectorAll(".carousel_dot");
    for (let i = 0; i < dots.length; i++) {
@@ -69681,11 +69681,7 @@ window.addEventListener("load", () => {
    buttonNext.addEventListener("click", () => slide(getItemActiveIndex() + 1));
 })
 
-function autoSlide() {
-   setInterval(() => {
-      slide(getItemActiveIndex() + 1);
-   }, 5000); // slide speed = 3s
-}
+
 
 function slide(toIndex) {
    if (onSlide)
