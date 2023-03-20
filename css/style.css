@@ -914,13 +914,14 @@ body.fixed-body {
 }
 
 main {
-  padding-top: var(--header-height);
+ 
   -webkit-transition: padding-top 0.5s linear;
   transition: padding-top 0.5s linear;
   min-width: 0 !important;
   position: relative;
   z-index: 2;
 }
+
 
 .round-bg {
   position: relative;
@@ -12778,20 +12779,23 @@ border-radius: 8px;
 .carousel_button{
  
   display: flex;
- align-items: center;
- justify-content: center;
- width: 30px;
- height: 30px;
-  background: #18264D;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+    
+  background: #142041;
   border-radius: 8px;
   border: none;
   cursor: pointer;
   transition: 0.25s;
   border: 1px solid rgba(255, 255, 255, 0);
   z-index: 1;
+
+  
 }
 .carousel_button:hover{
-  border: 1px solid rgba(255, 255, 255, 0.603);
+ 
 }
 
 .carousel_button:hover{
@@ -13294,10 +13298,11 @@ color: #ABB8EB;
   transition: 0.2s;
 }
 .point__link-soc:hover{
-  background: #1d6cc7;
+  box-shadow: 0px 6px 10px rgba(34, 130, 243, 0.25);
+  
 }
 .point__link-soc.soc-twit:hover{
-  background: #1d8ed4;
+  box-shadow: 0px 6px 10px rgba(29, 161, 242, 0.25);
  
 }
 
@@ -13352,12 +13357,12 @@ min-width: 55px;
 
 .pre-launch__card::before{
   position: absolute;
-  content: '';
+ 
   top: 0;
   left: 10px;
   width: 40px;
   height: 40px;
-  background: url('../img/pre-launch/BG.svg') no-repeat;
+  background: url('img/pre-launch/BG.svg') no-repeat;
   width: 100%;
   height: 60px;
   transform: rotate(-2deg);
@@ -13698,8 +13703,9 @@ line-height: 34px;
 }
 
 
-.first__logo {
- 
+.first__logo svg{
+  width: 424px;
+  height: 357px;
 }
 .first__title-text {
   font-family: 'TT Firs Neue';
@@ -13820,7 +13826,7 @@ line-height: 34px;
   bottom: 0;
   left: 0;
   background: linear-gradient(180deg, rgba(104, 102, 246, 0) 0%, rgba(104, 102, 246, 0.21) 100%);
-  
+  background: linear-gradient(180deg, rgba(104, 102, 246, 0) 0%, rgba(104, 102, 246, 0.21) 100%);
 }
 
 
@@ -13897,7 +13903,7 @@ z-index: 1;
 .first__block-title .first__logo:nth-child(2){
   position: absolute;
   z-index: 2;
-  top: 15%;
+  top: 40%;
   left: 49%;
   transform: translate(-50%,-50%);
   
@@ -14072,15 +14078,20 @@ top: calc(100% + 20px) ;
   .first{
     padding-bottom: 192px;
   }
-
+  .first-bg{
+    background: linear-gradient(180deg, rgba(104, 102, 246, 0) 0%, rgba(104, 102, 246, 0.21) 100%);
+  }
 
   .first.dark-section::after{
-    top: calc(100% + 40px) ;
- 
+    top: calc(90% ) !important;
+    left: 0;
+ display: none;
   }
   .first.dark-section::before{
-    top: calc(100% + 40px) ;
+    top: calc(90% ) !important;
+    display: none;
   }
+  
 .first__block-title{
   gap: 61px;
 }
@@ -14307,4 +14318,57 @@ margin-bottom: 42px;
   height: 4px;
   background-color: rgb(221, 151, 32);
   border-radius: 50%;
+}
+
+.first{
+  padding-top: 260px;
+  background: linear-gradient(180deg, rgb(49 48 125 / 0%) 0%, rgb(33 33 91 / 21%) 100%);
+}
+
+.benefits-our{
+padding-bottom: 100px;
+background: transparent;
+}
+
+.wrap-section{
+  background: linear-gradient(0deg, rgba(104, 102, 246, 0) 0%, rgba(104, 102, 246, 0.1) 100%);
+}
+
+footer{
+  background-color: transparent;
+}
+
+.benefits-section{
+  background: linear-gradient(0deg, rgba(104, 102, 246, 0) 0%, rgba(104, 102, 246, 0.1) 100%) !important;
+
+}
+.first__logo{
+
+}
+.first__logo svg{
+  display: flex;
+ width: 100%;
+ height: 100%;
+ 
+}
+
+.pre-launch.dark-section{
+  background: transparent;
+}
+
+.road-map-section.dark-section::before{
+  width: 387px;
+  height: 263px;
+  background: #6866F6;
+filter: blur(174.145px);
+left: 0;
+transform: translate(-90%,-50%);
+}
+.road-map-section.dark-section::after{
+  width: 387px;
+  height: 263px;
+  background: #6866F6;
+filter: blur(174.145px);
+left: 100%;
+transform: translate(10%,-50%);
 }
